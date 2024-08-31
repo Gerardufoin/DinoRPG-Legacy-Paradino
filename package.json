@@ -1,0 +1,14 @@
+{
+  "name": "dinorpg_legacy_paradino",
+  "version": "1.0.0",
+  "description": "A small website to host the movies scrapped from the web game DinoRPG before it was taken down.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "author": "Gerardufoin",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

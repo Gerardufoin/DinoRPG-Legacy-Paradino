@@ -1,0 +1,792 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Dino-RPG: Legacy Paradino</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/legacy_paradino.css" />
+    <link rel="image_src" href="/img/design/small_logo.jpg" />
+  </head>
+  <body>
+    <div class="dinorpg">
+      <table id="layout">
+        <tbody>
+          <tr>
+            <td id="left"><div></div></td>
+            <td id="center">
+              <a class="linkHome" onclick="access('/')"></a>
+
+              <div id="centerHeader">
+                <div id="centerContent">
+                  <div id="page-loading">
+                    <div id="loading">
+                      <div id="loading-spin">
+                        <img src="/img/custom/loading.svg" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="page-movies" class="hidden">
+                    <div class="section">
+                      <img src="/img/custom/title.png" />
+                    </div>
+
+                    <ul class="tabs">
+                      <li id="movies-best-tab">
+                        <a onclick="access('/')">
+                          <img src="/img/icons/small_star.gif" />
+                          Mieux Notés
+                        </a>
+                      </li>
+                      <li id="movies-popular-tab">
+                        <a onclick="access('/?sort=popular')">
+                          <img src="/img/icons/small_fav.gif" />
+                          Populaires
+                        </a>
+                      </li>
+                    </ul>
+
+                    <div class="help">
+                      <strong>
+                        Bienvenue sur la version legacy du Cinéma Paradino !
+                      </strong>
+                      Retrouvez ci-dessous la liste des films plébicités par le
+                      public mettant en scène leurs Dinoz lors de l'existence de
+                      Dino-RPG !
+                    </div>
+
+                    <div id="movies-filters">
+                      <span id="movies-filters-title">Filtres :</span>
+                      <input
+                        id="movies-filters-search"
+                        class="field"
+                        autocomplete="off"
+                      />
+                      <img
+                        id="movies-filters-flag-fr"
+                        class="flag-selection"
+                        src="/img/custom/fr.webp"
+                        onclick="toggleFlagFilter('fr');"
+                      />
+                      <img
+                        id="movies-filters-flag-en"
+                        class="flag-selection"
+                        src="/img/custom/en.webp"
+                        onclick="toggleFlagFilter('en');"
+                      />
+                      <img
+                        id="movies-filters-flag-es"
+                        class="flag-selection"
+                        src="/img/custom/es.webp"
+                        onclick="toggleFlagFilter('es');"
+                      />
+                    </div>
+
+                    <div class="browser" id="cinema-pages"></div>
+                    <table class="table select">
+                      <tbody id="movies-list"></tbody>
+                    </table>
+                  </div>
+
+                  <div id="page-movie" class="hidden">
+                    <div class="section">
+                      <div id="movie-title" class="page-title"></div>
+                    </div>
+
+                    <div class="help">
+                      Ce film a été réalisé par
+                      <a class="tid_user" id="movie-creator"></a>
+                    </div>
+
+                    <div class="cinema">
+                      <div id="swf_fight" class="swf"></div>
+
+                      <div class="reserve">
+                        <div class="debrief" id="movie-debrief">
+                          <span class="end">Fin</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div id="selection-title">Scènes</div>
+                    <div id="movie-scenes-selection"></div>
+
+                    <a class="button back" onclick="access('/')">
+                      <img src="/img/icons/large_back.gif" /> Retour
+                    </a>
+                  </div>
+
+                  <div id="page-user" class="hidden">
+                    <div class="user">
+                      <div class="section user-section">
+                        <div id="user-title" class="page-title">
+                          Informations personnelles
+                        </div>
+                      </div>
+
+                      <a class="button back" onclick="access('/')">
+                        <img src="/img/icons/large_back.gif" /> Retour
+                      </a>
+
+                      <table cellpadding="0" cellspacing="0" id="user-details">
+                        <tbody>
+                          <tr>
+                            <td rowspan="2" valign="top">
+                              <div class="card">
+                                <div class="header"></div>
+                                <dl>
+                                  <dt>Utilisateur</dt>
+                                  <dd id="user-name"></dd>
+
+                                  <dt>Dinoz</dt>
+                                  <dd id="user-dinoz"></dd>
+
+                                  <dt>Classement</dt>
+                                  <dd id="user-rank"></dd>
+
+                                  <dt>Inscrit le</dt>
+                                  <dd id="user-subscription"></dd>
+                                </dl>
+                                <div class="ajust">
+                                  <div class="clear"></div>
+                                </div>
+                                <div class="footer"></div>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <div class="profilBt2">Mes films</div>
+
+                      <table id="user-movies" class="table select">
+                        <tbody id="user-movies-list"></tbody>
+                      </table>
+
+                      <div class="profilBt2">Mes Dinoz</div>
+
+                      <div id="profilBox1" class="dinBox">
+                        <div class="art_mandra">
+                          <img src="/img/design/pixel.gif" />
+                        </div>
+                        <ul id="user-dinoz-list" class="dinList"></ul>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </td>
+            <td id="right">
+              <div></div>
+            </td>
+          </tr>
+          <tr>
+            <td><div></div></td>
+            <td><div class="skyfootercore"></div></td>
+            <td><div class="skyfooterright"></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="hpskyfooter"></div>
+    <script type="text/javascript" src="/script/app.js"></script>
+    <script
+      id="dino-anim"
+      async
+      type="text/javascript"
+      src="/script/dinorpg-animations.min.js"
+    ></script>
+    <script type="text/javascript">
+      const MOVIES_NB = 20;
+      let movies = [];
+      let parameters = {};
+      let filterSearch = "";
+      let filterFlags = ["fr", "en", "es"];
+      // List of the page containers
+      const pages = [
+        document.getElementById("page-loading"),
+        document.getElementById("page-movies"),
+        document.getElementById("page-movie"),
+        document.getElementById("page-user"),
+      ];
+      // List of dino races
+      const races = {
+        0: "Moueffe",
+        1: "Pigmou",
+        2: "Winks",
+        3: "Planaile",
+        4: "Castivore",
+        5: "Rocky",
+        6: "Pteroz",
+        7: "Nuagoz",
+        8: "Sirain",
+        9: "Hippoclamp",
+        A: "Gorilloz",
+        B: "Wanwan",
+        C: "Santaz",
+        D: "Feross",
+        E: "Kabuki",
+        F: "Mahamuti",
+        G: "Soufflet",
+        H: "Toufufu",
+        I: "Quetzu",
+        J: "Smog",
+        K: "Triceragon",
+      };
+      const filters = {
+        search: document.getElementById("movies-filters-search"),
+        flags: {
+          fr: document.getElementById("movies-filters-flag-fr"),
+          en: document.getElementById("movies-filters-flag-en"),
+          es: document.getElementById("movies-filters-flag-es"),
+        },
+      };
+      let dinoAnimLoaded = false;
+      // Callback to render the page in case DinoAnim script is not done loading at page change.
+      let dinoAnimCallback;
+      // Reference to the current fight animation. Has to be destroyed on page change.
+      let fightRef;
+      // Request to abort the page loading in case the page is changed while a fetch is running.
+      let abortRequest;
+      let renderingList = [];
+
+      // Wait for DinoAnim script to load
+      const dinoScript = document.querySelector("#dino-anim");
+      dinoScript.addEventListener("load", () => {
+        dinoAnimLoaded = true;
+        // Load one dinoz to preload the shaders
+        const dino = new DinoAnim.dino({
+          data: "09T1Yt9wqq4Rx000",
+        });
+        dino.toImage(
+          (div) => {
+            dino.destroy();
+          },
+          170,
+          148
+        );
+        if (dinoAnimCallback) {
+          dinoAnimCallback();
+        }
+      });
+
+      // Display the given page based on the given id
+      function displayPage(id) {
+        for (const p of pages) {
+          p.className = p.id === id ? "" : "hidden";
+        }
+      }
+
+      // Change the page when the url changes via prev/next
+      window.addEventListener("popstate", function (event) {
+        access();
+      });
+
+      // Link to a specific page based on the given URL (without actually changing page)
+      function access(url, displayLoading = true) {
+        if (abortRequest) {
+          abortRequest.abort();
+          abortRequest = undefined;
+        }
+        if (fightRef) {
+          document.getElementById("swf_fight").innerHTML = "";
+          fightRef.destroy();
+          fightRef = undefined;
+        }
+        renderingList = [];
+        if (displayLoading) {
+          displayPage("page-loading");
+        }
+        if (url) {
+          window.history.pushState("", "", url);
+        }
+        getPageLocation();
+      }
+
+      // Display the appropriate page based on the url parameters
+      function getPageLocation() {
+        const qStr = window.location.search;
+        const params = new URLSearchParams(qStr);
+        parameters = {
+          lang: params.get("lang") ?? "fr",
+          user_id: +params.get("user_id"),
+          movie_id: +params.get("movie_id"),
+          scene: +params.get("scene"),
+          page: +(params.get("page") ?? 1),
+          sort: params.get("sort"),
+        };
+        if (parameters.page <= 0) {
+          parameters.page = 1;
+        }
+        if (parameters.movie_id) {
+          displayMovie();
+        } else if (parameters.user_id) {
+          displayUser();
+        } else {
+          displayMovies();
+        }
+      }
+
+      // Get the start index of the movies list based on the page stored as parameter.
+      function getPage() {
+        return ((parameters.page ?? 1) - 1) * MOVIES_NB;
+      }
+
+      // Apply the search filters to the movies.
+      function applyFilters() {
+        for (const f of Object.keys(filters.flags)) {
+          if (filterFlags.includes(f)) {
+            filters.flags[f].classList.remove("disabled");
+          } else {
+            filters.flags[f].classList.add("disabled");
+          }
+        }
+        displayMovies();
+      }
+
+      let inputTimeout;
+      filters.search.oninput = () => {
+        if (inputTimeout) {
+          clearTimeout(inputTimeout);
+        }
+        inputTimeout = setTimeout(() => {
+          inputTimeout = undefined;
+          displayMovies();
+        }, 300);
+      };
+
+      // Toggle a filter flag on/off
+      function toggleFlagFilter(flag) {
+        if (filterFlags.includes(flag)) {
+          filterFlags = filterFlags.filter((f) => f !== flag);
+        } else {
+          filterFlags.push(flag);
+        }
+        applyFilters();
+      }
+
+      // Get the full list of movies based on the filters
+      function getFilteredMovies() {
+        if (parameters.sort === "popular") {
+          movies.sort((a, b) =>
+            b.votes === a.votes ? b.note - a.note : b.votes - a.votes
+          );
+        } else {
+          movies.sort((a, b) =>
+            b.note === a.note ? b.votes - a.votes : b.note - a.note
+          );
+        }
+        return movies.filter(
+          (m) =>
+            (m.name
+              .toLowerCase()
+              .includes(filters.search.value.toLowerCase()) ||
+              m.username
+                .toLowerCase()
+                .includes(filters.search.value.toLowerCase())) &&
+            filterFlags.includes(m.language)
+        );
+      }
+
+      // Get the movies to display based on the filters and current page.
+      function getPageMovies() {
+        let selection = getFilteredMovies();
+        const page = getPage();
+        selection = selection.slice(page, page + MOVIES_NB);
+        return selection;
+      }
+
+      // Return the number of pages based on the applied filters.
+      function getPageNumber() {
+        return Math.floor(getFilteredMovies().length / MOVIES_NB) + 1;
+      }
+
+      // Set the active sort tab for the movie
+      function setMoviesTabs() {
+        const best = document.getElementById("movies-best-tab");
+        const popular = document.getElementById("movies-popular-tab");
+        best.className = parameters.sort !== "popular" ? "active" : "";
+        popular.className = parameters.sort === "popular" ? "active" : "";
+      }
+
+      // Create one button for the movies navigation menu
+      function createPageButton(src, className, hoverMsg, callback) {
+        const elem = document.createElement("img");
+        elem.setAttribute("src", src);
+        if (className) {
+          elem.className = className;
+        }
+        if (hoverMsg !== "") {
+          const lnk = document.createElement("a");
+          lnk.appendChild(elem);
+          lnk.onclick = callback;
+          lnk.onmouseover = () => {
+            mt.js.Tip.show(
+              this,
+              `<div class='content'>${hoverMsg}</div>`,
+              "smallTip"
+            );
+          };
+          lnk.onmouseout = () => {
+            mt.js.Tip.hide();
+          };
+          return lnk;
+        }
+        return elem;
+      }
+
+      // Go to the given movie page
+      function goToPage(page) {
+        // Remove the popup just in cast
+        mt.js.Tip.hide();
+        parameters.page = page;
+        const params = new URLSearchParams();
+        for (const k of Object.keys(parameters)) {
+          if (
+            parameters[k] !== null &&
+            parameters[k] !== 0 &&
+            !(k === "lang" && parameters[k] === "fr") &&
+            !(k === "page" && parameters[k] === 1)
+          ) {
+            params.append(k, parameters[k]);
+          }
+        }
+        access(`/?${params.toString()}`);
+      }
+
+      // Set the menu at the bottom of the page.
+      function setMoviesPages() {
+        const menu = document.getElementById("cinema-pages");
+        menu.innerHTML = "";
+        const maxPages = getPageNumber();
+        menu.appendChild(
+          createPageButton(
+            "/img/icons/small_browse_begin.gif",
+            parameters.page === 1 ? "off" : "",
+            parameters.page > 1 ? "Aller au début" : "",
+            () => goToPage(1)
+          )
+        );
+        menu.appendChild(
+          createPageButton(
+            "/img/icons/small_browse_prev.gif",
+            parameters.page === 1 ? "off" : "",
+            parameters.page > 1 ? "Page précédente" : "",
+            () => goToPage(parameters.page - 1)
+          )
+        );
+        const counter = document.createElement("span");
+        counter.innerHTML = `| Page ${parameters.page} / ${maxPages} |`;
+        menu.appendChild(counter);
+        menu.appendChild(
+          createPageButton(
+            "/img/icons/small_browse_next.gif",
+            parameters.page >= maxPages ? "off" : "",
+            parameters.page < maxPages ? "Page suivante" : "",
+            () => goToPage(parameters.page + 1)
+          )
+        );
+        menu.appendChild(
+          createPageButton(
+            "/img/icons/small_browse_end.gif",
+            parameters.page >= maxPages ? "off" : "",
+            parameters.page < maxPages ? "Aller à la fin" : "",
+            () => goToPage(maxPages)
+          )
+        );
+      }
+
+      // Fill the movie tab based on the filters.
+      function displayMovies() {
+        setMoviesTabs();
+        setMoviesPages();
+        const sMovies = getPageMovies();
+        const container = document.getElementById("movies-list");
+        container.innerHTML =
+          "<tr><th></th><th>Titre du Film</th><th>Auteur</th><th>Note</th></tr>";
+        const page = getPage();
+        for (let i = 0; i < sMovies.length; ++i) {
+          const row = container.insertRow();
+          const id = row.insertCell();
+          id.innerHTML = page + i + 1;
+          const title = row.insertCell();
+          title.innerHTML = sMovies[i].name;
+          title.style = "font-weight: bold";
+          title.onclick = () =>
+            access(`/?movie_id=${sMovies[i].id}&lang=${sMovies[i].language}`);
+          const username = row.insertCell();
+          username.innerHTML = `<a class="tid_user">${sMovies[i].username}<img class="user-flag" src="/img/custom/${sMovies[i].language}.webp"/></a>`;
+          username.onclick = () =>
+            access(
+              `/?user_id=${sMovies[i].user_id}&lang=${sMovies[i].language}`
+            );
+          const score = row.insertCell();
+          score.innerHTML = `<div class="cinemaBar" onmouseover="mt.js.Tip.show(this,'<div class=\\'content\\'>Note : ${
+            sMovies[i].note
+          } (${sMovies[i].votes} vote${
+            sMovies[i].votes > 1 ? "s" : ""
+          })</div>','smallTip')" onmouseout="mt.js.Tip.hide()"><div class="fill" style="width: ${
+            (sMovies[i].note / 5) * 60
+          }px"></div></div>`;
+        }
+        displayPage("page-movies");
+      }
+
+      // Fill the given information into the movie page
+      function fillMoviePage(movie) {
+        const title = document.getElementById("movie-title");
+        title.innerHTML = movie.name;
+
+        const creator = document.getElementById("movie-creator");
+        creator.innerHTML = `${movie.username}<img class="user-flag" src="/img/custom/${movie.language}.webp"/></a>`;
+        creator.onclick = () =>
+          access(`/?user_id=${movie.user_id}&lang=${movie.language}`);
+
+        const endCard = document.getElementById("movie-debrief");
+        endCard.classList.add("hidden");
+
+        const scenes = document.getElementById("movie-scenes-selection");
+        scenes.innerHTML = "";
+
+        const scene = parameters.scene ?? 0;
+        const movieHolder = document.getElementById("swf_fight");
+        movieHolder.innerHTML = "";
+        if (scene + 1 <= movie.scenes.length) {
+          if (fightRef) {
+            fightRef.destroy();
+          }
+          fightRef = new DinoAnim.Fight({
+            legacy_data: movie.scenes[scene],
+          });
+          fightRef.onFightEnd = () => {
+            if (scene + 1 < movie.scenes.length) {
+              access(
+                `/?movie_id=${movie.id}&scene=${scene + 1}&lang=${
+                  movie.language
+                }`,
+                false
+              );
+            } else {
+              endCard.classList.remove("hidden");
+            }
+          };
+          movieHolder.append(fightRef.getDisplay());
+        } else {
+          endCard.classList.remove("hidden");
+        }
+
+        for (let i = 0; i < movie.scenes.length; ++i) {
+          const elem = document.createElement("a");
+          if (scene === i) {
+            elem.className = "playing";
+          }
+          elem.innerHTML = i + 1;
+          elem.onclick = () =>
+            access(
+              `/?movie_id=${movie.id}&scene=${i}&lang=${movie.language}`,
+              false
+            );
+          scenes.append(elem);
+        }
+
+        displayPage("page-movie");
+      }
+
+      // Fetch the parameters movies information and send it for rendering
+      async function displayMovie() {
+        if (abortRequest) {
+          abortRequest.abort();
+        }
+        abortRequest = new AbortController();
+        await fetch(
+          `/data/movies/${parameters.lang}/${parameters.movie_id}.json`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+            signal: abortRequest.signal,
+          }
+        )
+          .then(async (r) => {
+            abortRequest = undefined;
+            if (r.ok) {
+              return r.json();
+            }
+            throw new Error(
+              `Unable to access movie /${parameters.lang}/${
+                parameters.movie_id
+              }.json: (${r.status}) ${await r.text()}`
+            );
+          })
+          .then((r) => {
+            const displayer = () => {
+              fillMoviePage(r);
+            };
+            if (dinoAnimLoaded) {
+              displayer();
+            } else {
+              dinoAnimCallback = displayer;
+            }
+          })
+          .catch((e) => {
+            console.error(e);
+            access("/");
+          });
+      }
+
+      // Render the next dino in the renderingList
+      function renderPortraits() {
+        if (renderingList.length > 0) {
+          const infos = renderingList.shift();
+
+          const dino = new DinoAnim.dino({
+            data: infos.data,
+            flip: 1,
+          });
+          dino.toImage(
+            (div) => {
+              infos.container.append(div);
+              dino.destroy();
+              renderPortraits();
+            },
+            170,
+            148
+          );
+        }
+      }
+
+      // Fill the user page with the given information
+      function fillUserPage(user) {
+        const username = document.getElementById("user-name");
+        username.innerHTML = `${user.username}<img class="user-flag" src="/img/custom/${user.language}.webp"/>`;
+
+        const nbDinoz = document.getElementById("user-dinoz");
+        nbDinoz.innerHTML = user.dinoz.length;
+
+        const rank = document.getElementById("user-rank");
+        rank.innerHTML = `${user.rank} <sup>${
+          user.rank === 1 ? "er" : "ème"
+        }</sup> (${user.points} point${user.points > 1 ? "s" : ""})`;
+
+        const sub = document.getElementById("user-subscription");
+        sub.innerHTML = user.inscription;
+
+        const container = document.getElementById("user-movies-list");
+        container.innerHTML =
+          "<tr><th></th><th>Titre du Film</th><th>Note</th></tr>";
+        const userMovies = movies
+          .filter((m) => m.user_id === user.id && m.lang === user.lang)
+          .sort((a, b) =>
+            b.note === a.note ? b.votes - a.votes : b.note - a.note
+          );
+        for (let i = 0; i < userMovies.length; ++i) {
+          const row = container.insertRow();
+          const id = row.insertCell();
+          id.innerHTML = i + 1;
+          const title = row.insertCell();
+          title.innerHTML = userMovies[i].name;
+          title.style = "font-weight: bold";
+          title.onclick = () =>
+            access(
+              `/?movie_id=${userMovies[i].id}&lang=${userMovies[i].language}`
+            );
+          const score = row.insertCell();
+          score.innerHTML = `<div class="cinemaBar" onmouseover="mt.js.Tip.show(this,'<div class=\\'content\\'>Note : ${
+            userMovies[i].note
+          } (${userMovies[i].votes} vote${
+            userMovies[i].votes > 1 ? "s" : ""
+          })</div>','smallTip')" onmouseout="mt.js.Tip.hide()"><div class="fill" style="width: ${
+            (userMovies[i].note / 5) * 60
+          }px"></div></div>`;
+        }
+
+        const dinoList = document.getElementById("user-dinoz-list");
+        dinoList.innerHTML = "";
+        for (const dino of user.dinoz) {
+          const list = document.createElement("li");
+
+          const portrait = document.createElement("div");
+          portrait.classList.add("swf");
+          portrait.classList.add("dino-portrait");
+          list.append(portrait);
+
+          const dinoName = document.createElement("div");
+          dinoName.className = "name";
+          dinoName.innerHTML = dino.name;
+          list.append(dinoName);
+
+          const dinoDetails = document.createElement("div");
+          dinoDetails.className = "misc";
+          dinoDetails.innerHTML = `${races[dino.data[0]]} niveau ${dino.level}`;
+          list.append(dinoDetails);
+
+          dinoList.append(list);
+
+          renderingList.push({
+            data: dino.data,
+            container: portrait,
+          });
+        }
+        renderPortraits();
+
+        displayPage("page-user");
+      }
+
+      // Fetch the parameters user information and send it for rendering.
+      async function displayUser() {
+        if (abortRequest) {
+          abortRequest.abort();
+        }
+        abortRequest = new AbortController();
+        await fetch(
+          `/data/users/${parameters.lang}/${parameters.user_id}.json`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+            },
+            signal: abortRequest.signal,
+          }
+        )
+          .then(async (r) => {
+            abortRequest = undefined;
+            if (r.ok) {
+              return r.json();
+            }
+            throw new Error(
+              `Unable to access user /${parameters.lang}/${
+                parameters.user_id
+              }.json: (${r.status}) ${await r.text()}`
+            );
+          })
+          .then((r) => {
+            const displayer = () => {
+              fillUserPage(r);
+            };
+            if (dinoAnimLoaded) {
+              displayer();
+            } else {
+              dinoAnimCallback = displayer;
+            }
+          })
+          .catch((e) => {
+            console.error(e);
+            access("/");
+          });
+      }
+
+      // Load the summary and then display the appropriate page location.
+      async function getSummary() {
+        const response = await fetch("/data/movies.json", {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+        movies = await response.json();
+        getPageLocation();
+      }
+
+      getSummary();
+    </script>
+  </body>
+</html>

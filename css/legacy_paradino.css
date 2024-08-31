@@ -1,0 +1,138 @@
+.section img {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.user-flag {
+  transform: translate(3px, 1px);
+  margin-right: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+#page-loading {
+  height: 600px;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loading-spin {
+  animation: spin 3s linear infinite;
+}
+
+#loading-spin img {
+  width: 120px;
+  margin-top: -10px;
+  filter: drop-shadow(4px 4px 1px rgba(106, 68, 30, 0.3));
+}
+
+.tid_user {
+  white-space: nowrap;
+}
+
+#swf_fight {
+  height: 300px;
+}
+
+.user-section {
+  margin-bottom: 10px;
+}
+
+#user-movies {
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#user-details {
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.page-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #a4512d;
+  margin-left: 8px;
+  font-size: 22px;
+  text-shadow: 2px 2px 2px #d69e68;
+}
+
+#selection-title {
+  text-align: center;
+  color: #a4512d;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #d69e68;
+}
+
+#movies-filters-title {
+  font-weight: 900;
+  color: #a4512d;
+  margin-left: 8px;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px #d69e68;
+}
+
+#movies-filters {
+  margin-bottom: 10px;
+}
+
+img.disabled {
+  filter: grayscale(1);
+}
+
+.flag-selection {
+  cursor: pointer;
+}
+
+#movie-scenes-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 5px;
+  margin-bottom: 15px;
+}
+
+#movie-scenes-selection a {
+  display: inline-block;
+  width: 48px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-image: url("/img/design/menu_dojo_bt.gif");
+  background-repeat: no-repeat;
+}
+
+#movie-scenes-selection a.playing,
+#movie-scenes-selection a:hover {
+  color: #683a23;
+  background-image: url("/img/design/menu_dojo_bt2.gif");
+  background-repeat: no-repeat;
+}
+
+.dino-portrait {
+  width: 170px;
+  height: 148px;
+}
