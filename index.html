@@ -2,9 +2,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Dino-RPG: Legacy Paradino</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="/css/legacy_paradino.css" />
-    <link rel="image_src" href="/img/design/small_logo.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/legacy_paradino.css" />
+    <link rel="image_src" href="img/design/small_logo.jpg" />
   </head>
   <body>
     <div class="dinorpg">
@@ -20,26 +20,26 @@
                   <div id="page-loading">
                     <div id="loading">
                       <div id="loading-spin">
-                        <img src="/img/custom/loading.svg" />
+                        <img src="img/custom/loading.svg" />
                       </div>
                     </div>
                   </div>
 
                   <div id="page-movies" class="hidden">
                     <div class="section">
-                      <img src="/img/custom/title.png" />
+                      <img src="img/custom/title.png" />
                     </div>
 
                     <ul class="tabs">
                       <li id="movies-best-tab">
                         <a onclick="access('/')">
-                          <img src="/img/icons/small_star.gif" />
+                          <img src="img/icons/small_star.gif" />
                           Mieux Notés
                         </a>
                       </li>
                       <li id="movies-popular-tab">
                         <a onclick="access('/?sort=popular')">
-                          <img src="/img/icons/small_fav.gif" />
+                          <img src="img/icons/small_fav.gif" />
                           Populaires
                         </a>
                       </li>
@@ -64,19 +64,19 @@
                       <img
                         id="movies-filters-flag-fr"
                         class="flag-selection"
-                        src="/img/custom/fr.webp"
+                        src="img/custom/fr.webp"
                         onclick="toggleFlagFilter('fr');"
                       />
                       <img
                         id="movies-filters-flag-en"
                         class="flag-selection"
-                        src="/img/custom/en.webp"
+                        src="img/custom/en.webp"
                         onclick="toggleFlagFilter('en');"
                       />
                       <img
                         id="movies-filters-flag-es"
                         class="flag-selection"
-                        src="/img/custom/es.webp"
+                        src="img/custom/es.webp"
                         onclick="toggleFlagFilter('es');"
                       />
                     </div>
@@ -111,7 +111,7 @@
                     <div id="movie-scenes-selection"></div>
 
                     <a class="button back" onclick="access('/')">
-                      <img src="/img/icons/large_back.gif" /> Retour
+                      <img src="img/icons/large_back.gif" /> Retour
                     </a>
                   </div>
 
@@ -124,7 +124,7 @@
                       </div>
 
                       <a class="button back" onclick="access('/')">
-                        <img src="/img/icons/large_back.gif" /> Retour
+                        <img src="img/icons/large_back.gif" /> Retour
                       </a>
 
                       <table cellpadding="0" cellspacing="0" id="user-details">
@@ -166,7 +166,7 @@
 
                       <div id="profilBox1" class="dinBox">
                         <div class="art_mandra">
-                          <img src="/img/design/pixel.gif" />
+                          <img src="img/design/pixel.gif" />
                         </div>
                         <ul id="user-dinoz-list" class="dinList"></ul>
                         <div class="clear"></div>
@@ -190,12 +190,12 @@
       </table>
     </div>
     <div class="hpskyfooter"></div>
-    <script type="text/javascript" src="/script/app.js"></script>
+    <script type="text/javascript" src="script/app.js"></script>
     <script
       id="dino-anim"
       async
       type="text/javascript"
-      src="/script/dinorpg-animations.min.js"
+      src="script/dinorpg-animations.min.js"
     ></script>
     <script type="text/javascript">
       const MOVIES_NB = 20;
@@ -462,7 +462,7 @@
         const maxPages = getPageNumber();
         menu.appendChild(
           createPageButton(
-            "/img/icons/small_browse_begin.gif",
+            "img/icons/small_browse_begin.gif",
             parameters.page === 1 ? "off" : "",
             parameters.page > 1 ? "Aller au début" : "",
             () => goToPage(1)
@@ -470,7 +470,7 @@
         );
         menu.appendChild(
           createPageButton(
-            "/img/icons/small_browse_prev.gif",
+            "img/icons/small_browse_prev.gif",
             parameters.page === 1 ? "off" : "",
             parameters.page > 1 ? "Page précédente" : "",
             () => goToPage(parameters.page - 1)
@@ -481,7 +481,7 @@
         menu.appendChild(counter);
         menu.appendChild(
           createPageButton(
-            "/img/icons/small_browse_next.gif",
+            "img/icons/small_browse_next.gif",
             parameters.page >= maxPages ? "off" : "",
             parameters.page < maxPages ? "Page suivante" : "",
             () => goToPage(parameters.page + 1)
@@ -489,7 +489,7 @@
         );
         menu.appendChild(
           createPageButton(
-            "/img/icons/small_browse_end.gif",
+            "img/icons/small_browse_end.gif",
             parameters.page >= maxPages ? "off" : "",
             parameters.page < maxPages ? "Aller à la fin" : "",
             () => goToPage(maxPages)
@@ -516,7 +516,7 @@
           title.onclick = () =>
             access(`/?movie_id=${sMovies[i].id}&lang=${sMovies[i].language}`);
           const username = row.insertCell();
-          username.innerHTML = `<a class="tid_user">${sMovies[i].username}<img class="user-flag" src="/img/custom/${sMovies[i].language}.webp"/></a>`;
+          username.innerHTML = `<a class="tid_user">${sMovies[i].username}<img class="user-flag" src="img/custom/${sMovies[i].language}.webp"/></a>`;
           username.onclick = () =>
             access(
               `/?user_id=${sMovies[i].user_id}&lang=${sMovies[i].language}`
@@ -539,7 +539,7 @@
         title.innerHTML = movie.name;
 
         const creator = document.getElementById("movie-creator");
-        creator.innerHTML = `${movie.username}<img class="user-flag" src="/img/custom/${movie.language}.webp"/></a>`;
+        creator.innerHTML = `${movie.username}<img class="user-flag" src="img/custom/${movie.language}.webp"/></a>`;
         creator.onclick = () =>
           access(`/?user_id=${movie.user_id}&lang=${movie.language}`);
 
@@ -659,7 +659,7 @@
       // Fill the user page with the given information
       function fillUserPage(user) {
         const username = document.getElementById("user-name");
-        username.innerHTML = `${user.username}<img class="user-flag" src="/img/custom/${user.language}.webp"/>`;
+        username.innerHTML = `${user.username}<img class="user-flag" src="img/custom/${user.language}.webp"/>`;
 
         const nbDinoz = document.getElementById("user-dinoz");
         nbDinoz.innerHTML = user.dinoz.length;
@@ -777,7 +777,7 @@
 
       // Load the summary and then display the appropriate page location.
       async function getSummary() {
-        const response = await fetch("/data/movies.json", {
+        const response = await fetch("data/movies.json", {
           headers: {
             "Content-Type": "application/json",
           },

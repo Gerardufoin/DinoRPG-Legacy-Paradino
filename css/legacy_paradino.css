@@ -121,14 +121,14 @@ img.disabled {
   font-size: 20px;
   text-align: center;
   color: white;
-  background-image: url("/img/design/menu_dojo_bt.gif");
+  background-image: url("../img/design/menu_dojo_bt.gif");
   background-repeat: no-repeat;
 }
 
 #movie-scenes-selection a.playing,
 #movie-scenes-selection a:hover {
   color: #683a23;
-  background-image: url("/img/design/menu_dojo_bt2.gif");
+  background-image: url("../img/design/menu_dojo_bt2.gif");
   background-repeat: no-repeat;
 }
 

@@ -1,8 +1,8 @@
 @font-face {
   font-family: "LCD";
-  src: url("/img/font/lcd.woff2") format("woff2"),
-    url("/img/font/lcd.woff") format("woff"),
-    url("/img/font/lcd.ttf") format("truetype");
+  src: url("../img/font/lcd.woff2") format("woff2"),
+    url("../img/font/lcd.woff") format("woff"),
+    url("../img/font/lcd.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -65,29 +65,29 @@ table#layout td#right div {
   padding: 1px;
 }
 table#layout td#left {
-  background-image: url("/img/design/hp_motif.jpg");
+  background-image: url("../img/design/hp_motif.jpg");
   background-position: right 378px;
 }
 table#layout td#left div {
   height: 378px;
-  background-image: url("/img/design/hp_motif_haut.jpg");
+  background-image: url("../img/design/hp_motif_haut.jpg");
   background-repeat: repeat-x;
   background-position: right top;
 }
 table#layout td#right {
-  background-image: url("/img/design/core_right_bg.jpg");
+  background-image: url("../img/design/core_right_bg.jpg");
   background-position: left 77px;
   background-repeat: repeat-y;
 }
 table#layout td#right div {
   height: 77px;
-  background-image: url("/img/design/core_right_header.gif");
+  background-image: url("../img/design/core_right_header.gif");
   background-repeat: no-repeat;
   background-position: left top;
 }
 table#layout td#center {
   width: 900px;
-  background-image: url("/img/design/core_center_bg.gif");
+  background-image: url("../img/design/core_center_bg.gif");
   background-position: left 378px;
 }
 table#layout td#center .notice {
@@ -104,7 +104,7 @@ table#layout td#center .notice {
 }
 table#layout td#center #centerHeader {
   padding: 1px;
-  background-image: url("/img/design/core_center_header.jpg");
+  background-image: url("../img/design/core_center_header.jpg");
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -134,39 +134,39 @@ table#layout td#center .largeSection {
 }
 #hpsky .leftfond {
   background-position: right top;
-  background-image: url("/img/design/bg_ciel.jpg");
+  background-image: url("../img/design/bg_ciel.jpg");
   width: 50%;
   background-repeat: repeat-x;
 }
 #hpsky .leftfond2 {
-  background-image: url("/img/design/bg_ciel2.jpg");
+  background-image: url("../img/design/bg_ciel2.jpg");
 }
 #hpsky .leftfond3 {
-  background-image: url("/img/design/bg_ciel3.jpg");
+  background-image: url("../img/design/bg_ciel3.jpg");
 }
 #hpsky .rightfond {
   background-position: left top;
-  background-image: url("/img/design/bg_ciel.jpg");
+  background-image: url("../img/design/bg_ciel.jpg");
   background-repeat: repeat-x;
   width: 50%;
 }
 #hpsky .rightfond2 {
-  background-image: url("/img/design/bg_ciel2.jpg");
+  background-image: url("../img/design/bg_ciel2.jpg");
 }
 #hpsky .rightfond3 {
-  background-image: url("/img/design/bg_ciel3.jpg");
+  background-image: url("../img/design/bg_ciel3.jpg");
 }
 #hpsky .centerHeader2 {
-  background-image: url("/img/design/sky_headerbg.jpg");
+  background-image: url("../img/design/sky_headerbg.jpg");
   width: 1008px;
 }
 #hpsky .centerHeader3 {
-  background-image: url("/img/design/caush_headerbg.jpg");
+  background-image: url("../img/design/caush_headerbg.jpg");
   width: 1008px;
   height: 510px;
 }
 #hpsky .centerHeader4 {
-  background-image: url("/img/design/lvl70_headerbg.jpg");
+  background-image: url("../img/design/lvl70_headerbg.jpg");
   width: 1008px;
   height: 510px;
 }
@@ -176,7 +176,7 @@ table#layout td#center .largeSection {
   height: 160px;
 }
 .hpskyfooter {
-  background-image: url("/img/design/sky_footer.jpg");
+  background-image: url("../img/design/sky_footer.jpg");
   height: 70px;
   width: 100%;
   background-repeat: repeat-x;
@@ -184,26 +184,26 @@ table#layout td#center .largeSection {
   bottom: 0;
 }
 body.clanwar .dinoz {
-  background-image: url("/img/loc/fr/war_bg.jpg");
+  background-image: url("../img/loc/fr/war_bg.jpg");
 }
 body.clanwar #dinozList span.money {
   margin-top: 11px;
-  background-image: url("/img/design/goldbox_war.gif");
+  background-image: url("../img/design/goldbox_war.gif");
 }
 body.clanwar table#layout {
-  background-image: url("/img/design/bg_ciel3.jpg");
+  background-image: url("../img/design/bg_ciel3.jpg");
   background-repeat: no-repeat;
   background-color: white;
 }
 body.clanwar table#layout td#center #centerHeader {
-  background-image: url("/img/design/war_core_center_header3.gif");
+  background-image: url("../img/design/war_core_center_header3.gif");
 }
 body.clanwar table#layout td#right div {
   height: 88px;
-  background-image: url("/img/design/core_right_header3.gif");
+  background-image: url("../img/design/core_right_header3.gif");
 }
 body.clanwar table#layout td#center {
-  background-image: url("/img/design/sky_core_bg.gif");
+  background-image: url("../img/design/sky_core_bg.gif");
   background-repeat: repeat-y;
 }
 body.clanwar table#layout td#left div {
@@ -213,26 +213,26 @@ body.clanwar table#layout td#left {
   background-image: none;
 }
 body.clanbattle .dinoz {
-  background-image: url("/img/loc/fr/cdc_bg.jpg");
+  background-image: url("../img/loc/fr/cdc_bg.jpg");
 }
 body.clanbattle #dinozList span.money {
   margin-top: 11px;
-  background-image: url("/img/design/goldbox_cdc.gif");
+  background-image: url("../img/design/goldbox_cdc.gif");
 }
 body.clanbattle table#layout {
-  background-image: url("/img/design/bg_ciel.jpg");
+  background-image: url("../img/design/bg_ciel.jpg");
   background-repeat: no-repeat;
   background-color: white;
 }
 body.clanbattle table#layout td#center #centerHeader {
-  background-image: url("/img/design/cdc_core_center_header.png");
+  background-image: url("../img/design/cdc_core_center_header.png");
 }
 body.clanbattle table#layout td#right div {
   height: 88px;
-  background-image: url("/img/design/sky_core_right_header.gif");
+  background-image: url("../img/design/sky_core_right_header.gif");
 }
 body.clanbattle table#layout td#center {
-  background-image: url("/img/design/sky_core_bg.gif");
+  background-image: url("../img/design/sky_core_bg.gif");
   background-repeat: repeat-y;
 }
 body.clanbattle table#layout td#left div {
@@ -243,27 +243,27 @@ body.clanbattle table#layout td#left {
 }
 body.anniversary #dinozList span.money {
   margin-top: 11px;
-  background-image: url("/img/design/goldbox_cdc.gif");
+  background-image: url("../img/design/goldbox_cdc.gif");
 }
 body.anniversary table#layout td#center #centerHeader {
   padding: 1px;
-  background-image: url("/img/loc/fr/anniv_core_center_header2.gif");
+  background-image: url("../img/loc/fr/anniv_core_center_header2.gif");
   background-repeat: no-repeat;
 }
 body.anniversary table#layout td#center {
   width: 900px;
-  background-image: url("/img/design/sky_core_bg.gif");
+  background-image: url("../img/design/sky_core_bg.gif");
   background-repeat: repeat-y;
   margin-top: 88px;
 }
 body.anniversary table#layout td#right div {
   height: 88px;
-  background-image: url("/img/design/anniv_core_right_header.gif");
+  background-image: url("../img/design/anniv_core_right_header.gif");
   background-repeat: no-repeat;
   background-position: left top;
 }
 body.anniversary table#layout {
-  background-image: url("/img/design/bg_nuit.jpg");
+  background-image: url("../img/design/bg_nuit.jpg");
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -276,25 +276,25 @@ body.anniversary table#layout td#left div {
 body.xmas #dinozList span.money,
 body.xmasgoblin #dinozList span.money {
   margin-top: 11px;
-  background-image: url("/img/design/goldBox.gif");
+  background-image: url("../img/design/goldBox.gif");
 }
 body.xmas #hpsky .centerHeader4,
 body.xmasgoblin #hpsky .centerHeader4 {
-  background-image: url("/img/design/sky_headerbg.jpg");
+  background-image: url("../img/design/sky_headerbg.jpg");
   background-repeat: no-repeat;
 }
 body.xmas #hpsky .leftfond3,
 body.xmasgoblin #hpsky .leftfond3 {
-  background-image: url("/img/design/bg_ciel.jpg");
+  background-image: url("../img/design/bg_ciel.jpg");
 }
 body.xmas #hpsky .rightfond3,
 body.xmasgoblin #hpsky .rightfond3 {
-  background-image: url("/img/design/bg_ciel.jpg");
+  background-image: url("../img/design/bg_ciel.jpg");
 }
 body.xmas table#layout td#center #centerHeader,
 body.xmasgoblin table#layout td#center #centerHeader {
   padding: 1px;
-  background-image: url("/img/design/noel_core_center_header.png");
+  background-image: url("../img/design/noel_core_center_header.png");
   background-repeat: no-repeat;
 }
 body.xmas table#layout td#left,
@@ -307,38 +307,38 @@ body.xmasgoblin table#layout td#left div {
 }
 body.xmas table#layout td#center,
 body.xmasgoblin table#layout td#center {
-  background-image: url("/img/design/sky_core_bg.gif");
+  background-image: url("../img/design/sky_core_bg.gif");
 }
 body.xmas table#layout td#right div,
 body.xmasgoblin table#layout td#right div {
-  background-image: url("/img/design/sky_core_right_header.gif");
+  background-image: url("../img/design/sky_core_right_header.gif");
 }
 body.xmas table#layout,
 body.xmasgoblin table#layout {
-  background-image: url("/img/design/bg_ciel.jpg");
+  background-image: url("../img/design/bg_ciel.jpg");
 }
 body.halloween #dinozList span.money {
   margin-top: 11px;
 }
 body.halloween table#layout td#center #centerHeader {
   padding: 1px;
-  background-image: url("/img/design/halloween_core_center_header.gif");
+  background-image: url("../img/design/halloween_core_center_header.gif");
   background-repeat: no-repeat;
 }
 body.halloween table#layout td#center {
   width: 900px;
-  background-image: url("/img/design/sky_core_bg.gif");
+  background-image: url("../img/design/sky_core_bg.gif");
   background-repeat: repeat-y;
   margin-top: 88px;
 }
 body.halloween table#layout td#right div {
   height: 88px;
-  background-image: url("/img/design/halloween_core_right_header.gif");
+  background-image: url("../img/design/halloween_core_right_header.gif");
   background-repeat: no-repeat;
   background-position: left top;
 }
 body.halloween table#layout {
-  background-image: url("/img/design/bg_nuit.jpg");
+  background-image: url("../img/design/bg_nuit.jpg");
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -356,23 +356,23 @@ body #dinozList span.money {
 }
 body table#layout td#center #centerHeader {
   padding: 1px;
-  background-image: url("/img/design/core_center_header3.gif");
+  background-image: url("../img/design/core_center_header3.gif");
   background-repeat: no-repeat;
 }
 body table#layout td#center {
   width: 900px;
-  background-image: url("/img/design/sky_core_bg.gif");
+  background-image: url("../img/design/sky_core_bg.gif");
   background-repeat: repeat-y;
   margin-top: 88px;
 }
 body table#layout td#right div {
   height: 88px;
-  background-image: url("/img/design/core_right_header3.gif");
+  background-image: url("../img/design/core_right_header3.gif");
   background-repeat: no-repeat;
   background-position: left top;
 }
 body table#layout {
-  background-image: url("/img/design/bg_ciel3.jpg");
+  background-image: url("../img/design/bg_ciel3.jpg");
   background-color: white;
   background-repeat: no-repeat;
 }
@@ -383,13 +383,13 @@ body table#layout td#left div {
   background-image: none;
 }
 body .skyfootercore {
-  background-image: url("/img/design/core_center_footer.png");
+  background-image: url("../img/design/core_center_footer.png");
   background-repeat: no-repeat;
   height: 151px;
 }
 body .skyfooterright {
   height: 151px;
-  background-image: url("/img/design/core_right_footer.png");
+  background-image: url("../img/design/core_right_footer.png");
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -399,7 +399,7 @@ body .skyfooterright {
 }
 .introsky .seasonname {
   position: absolute;
-  background-image: url("/img/loc/fr/titre_hp.png");
+  background-image: url("../img/loc/fr/titre_hp.png");
   background-repeat: no-repeat;
   width: 433px;
   height: 29px;
@@ -408,7 +408,7 @@ body .skyfooterright {
 }
 .introsky .seasonname2 {
   position: absolute;
-  background-image: url("/img/loc/fr/titre_hp2.png");
+  background-image: url("../img/loc/fr/titre_hp2.png");
   background-repeat: no-repeat;
   width: 433px;
   height: 29px;
@@ -416,10 +416,10 @@ body .skyfooterright {
   margin-left: 200px;
 }
 .introsky .s3 {
-  background-image: url("/img/loc/fr/titre_hp3.png");
+  background-image: url("../img/loc/fr/titre_hp3.png");
 }
 .introsky .s4 {
-  background-image: url("/img/loc/fr/titre_hp4.png");
+  background-image: url("../img/loc/fr/titre_hp4.png");
 }
 .introsky .menusky {
   position: absolute;
@@ -460,14 +460,14 @@ body .skyfooterright {
   width: 105px;
   margin-top: 0px;
   background-repeat: no-repeat;
-  background-image: url("/img/loc/fr/hp_combat_bt.gif");
+  background-image: url("../img/loc/fr/hp_combat_bt.gif");
   padding-bottom: 4px;
 }
 .introsky .bloc a.choix1:hover {
-  background-image: url("/img/loc/fr/hp_combat_bt2.gif");
+  background-image: url("../img/loc/fr/hp_combat_bt2.gif");
 }
 .introsky .bloc a.choix1:focus {
-  background-image: url("/img/loc/fr/hp_combat_bt2.gif");
+  background-image: url("../img/loc/fr/hp_combat_bt2.gif");
 }
 .introsky .bloc a.choix2 {
   position: absolute;
@@ -475,14 +475,14 @@ body .skyfooterright {
   width: 105px;
   margin-top: 105px;
   background-repeat: no-repeat;
-  background-image: url("/img/loc/fr/hp_dinoz_bt.gif");
+  background-image: url("../img/loc/fr/hp_dinoz_bt.gif");
   padding-bottom: 4px;
 }
 .introsky .bloc a.choix2:hover {
-  background-image: url("/img/loc/fr/hp_dinoz_bt2.gif");
+  background-image: url("../img/loc/fr/hp_dinoz_bt2.gif");
 }
 .introsky .bloc a.choix2:focus {
-  background-image: url("/img/loc/fr/hp_dinoz_bt2.gif");
+  background-image: url("../img/loc/fr/hp_dinoz_bt2.gif");
 }
 .introsky .bloc a.choix3 {
   position: absolute;
@@ -490,13 +490,13 @@ body .skyfooterright {
   height: 100px;
   width: 105px;
   background-repeat: no-repeat;
-  background-image: url("/img/loc/fr/hp_guerre_bt.gif");
+  background-image: url("../img/loc/fr/hp_guerre_bt.gif");
 }
 .introsky .bloc a.choix3:hover {
-  background-image: url("/img/loc/fr/hp_guerre_bt2.gif");
+  background-image: url("../img/loc/fr/hp_guerre_bt2.gif");
 }
 .introsky .bloc a.choix3:focus {
-  background-image: url("/img/loc/fr/hp_guerre_bt2.gif");
+  background-image: url("../img/loc/fr/hp_guerre_bt2.gif");
 }
 .introsky .bloc a:hover {
   background-color: transparent;
@@ -507,7 +507,7 @@ body .skyfooterright {
   width: 497px;
   height: 309px;
   background-repeat: no-repeat;
-  background-image: url("/img/design/fond_module.jpg");
+  background-image: url("../img/design/fond_module.jpg");
 }
 .introsky .bloc .module .swf {
   padding-top: 4px;
@@ -574,7 +574,7 @@ body .skyfooterright {
 .introsky .bloc .minipopup {
   position: absolute;
   z-index: 3;
-  background: transparent url("/img/design/minipopup.png") no-repeat top left;
+  background: transparent url("../img/design/minipopup.png") no-repeat top left;
   width: 458px;
   height: 162px;
   margin-left: 25px;
@@ -608,14 +608,14 @@ body .skyfooterright {
   float: left;
   position: relative;
   margin-right: 25px;
-  background: transparent url("/img/icons/elem_3.gif") no-repeat top left;
+  background: transparent url("../img/icons/elem_3.gif") no-repeat top left;
   padding-left: 28px;
   height: 22px;
 }
 .introsky .freetoplay {
   position: absolute;
   margin-left: 616px;
-  background: url("/img/design/freetoplay_old.jpg");
+  background: url("../img/design/freetoplay_old.jpg");
   background-repeat: no-repeat;
   width: 236px;
   height: 309px;
@@ -641,7 +641,7 @@ body .skyfooterright {
 .introsky .freetoplay a.freebt {
   margin-left: 50px;
   margin-top: 250px;
-  background: url("/img/design/bt_hpsky.gif");
+  background: url("../img/design/bt_hpsky.gif");
   background-repeat: no-repeat;
   width: 87px;
   height: 42px;
@@ -657,12 +657,12 @@ body .skyfooterright {
   margin-top: 252px;
   color: white;
   text-shadow: 0px -2px 0px #972122;
-  background: url("/img/design/bt_hpsky2.gif");
+  background: url("../img/design/bt_hpsky2.gif");
 }
 .introsky .promo {
   position: absolute;
   margin-left: 616px;
-  background: url("/img/design/promo.jpg");
+  background: url("../img/design/promo.jpg");
   background-repeat: no-repeat;
   width: 236px;
   height: 309px;
@@ -689,7 +689,7 @@ body .skyfooterright {
   position: absolute;
   margin-left: 50px;
   margin-top: 250px;
-  background: url("/img/design/bt_hppromo.gif");
+  background: url("../img/design/bt_hppromo.gif");
   background-repeat: no-repeat;
   width: 87px;
   height: 42px;
@@ -709,10 +709,10 @@ body .skyfooterright {
   margin-top: 252px;
   color: #ffc59c;
   text-shadow: 0px -2px 0px #4f2700;
-  background: url("/img/design/bt_hppromo2.gif");
+  background: url("../img/design/bt_hppromo2.gif");
 }
 .introsky .promoNoel {
-  background: url("/img/design/promo-noel.jpg");
+  background: url("../img/design/promo-noel.jpg");
 }
 .introsky .promoNoel .promotxt {
   color: #342a42;
@@ -721,7 +721,7 @@ body .skyfooterright {
     -1px 1px 0px #fb9aff, 1px -1px 0px #fb9aff;
 }
 .introsky .promoNoel2 {
-  background: url("/img/design/promo-noel2.jpg");
+  background: url("../img/design/promo-noel2.jpg");
 }
 .introsky .promoNoel2 .promotxt {
   color: #342a42;
@@ -730,7 +730,7 @@ body .skyfooterright {
     -1px 1px 0px #fb9aff, 1px -1px 0px #fb9aff;
 }
 .introsky .promoAnniv {
-  background: url("/img/design/promo-anniv.jpg");
+  background: url("../img/design/promo-anniv.jpg");
 }
 .introsky .promoAnniv .promotxt {
   color: #ffef65;
@@ -739,7 +739,7 @@ body .skyfooterright {
     -1px 1px 0px #3b1b00, 1px -1px 0px #3b1b00;
 }
 .introsky .promoDay {
-  background: url("/img/design/promo.jpg");
+  background: url("../img/design/promo.jpg");
 }
 .introsky .promoDay .promotxt {
   color: #ffef65;
@@ -757,27 +757,27 @@ body .skyfooterright {
 }
 body.avril table#layout td#center #centerHeader {
   padding: 1px;
-  background-image: url("/img/design/avril_core_center_header.jpg");
+  background-image: url("../img/design/avril_core_center_header.jpg");
   background-repeat: no-repeat;
 }
 body.avril table#layout td#center {
   width: 900px;
-  background-image: url("/img/design/avril_core_bg.gif");
+  background-image: url("../img/design/avril_core_bg.gif");
   background-position: left 378px;
 }
 body.avril table#layout td#right div {
   height: 77px;
-  background-image: url("/img/design/avril_core_right_header.gif");
+  background-image: url("../img/design/avril_core_right_header.gif");
   background-repeat: no-repeat;
   background-position: left top;
 }
 body.avril table#layout td#left {
-  background-image: url("/img/design/hp_motif_avril.gif");
+  background-image: url("../img/design/hp_motif_avril.gif");
   background-position: right 378px;
 }
 body.avril table#layout td#left div {
   height: 378px;
-  background-image: url("/img/design/hp_motif_avril.gif");
+  background-image: url("../img/design/hp_motif_avril.gif");
   background-repeat: repeat-x;
   background-position: right top;
 }
@@ -794,25 +794,25 @@ body.avril table#layout td#left div {
 }
 #homepage table .leftfond {
   background-position: right top;
-  background-image: url("/img/design/hp_motif.jpg");
+  background-image: url("../img/design/hp_motif.jpg");
   width: 50%;
 }
 #homepage table .left {
   background-repeat: repeat-x;
-  background-image: url("/img/design/hp_motif_haut.jpg");
+  background-image: url("../img/design/hp_motif_haut.jpg");
   height: 378px;
   background-position: right top;
 }
 #homepage table .rightfond {
   background-position: left top;
-  background-image: url("/img/design/hp_motif.jpg");
+  background-image: url("../img/design/hp_motif.jpg");
   width: 50%;
 }
 #homepage table .right {
   background-position: left top;
   background-repeat: repeat-x;
   height: 378px;
-  background-image: url("/img/design/hp_motif_haut.jpg");
+  background-image: url("../img/design/hp_motif_haut.jpg");
 }
 .mtlogo {
   position: absolute;
@@ -821,7 +821,7 @@ body.avril table#layout td#left div {
   top: 10px;
   left: 30px;
   background-position: 0px 0px;
-  background-image: url("/img/design/logo_mt.gif");
+  background-image: url("../img/design/logo_mt.gif");
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -850,7 +850,7 @@ body.avril table#layout td#left div {
 }
 .mtlogo:hover {
   width: 140px;
-  background-image: url("/img/design/logo_mt.gif");
+  background-image: url("../img/design/logo_mt.gif");
 }
 .mtlogo:hover ul {
   display: block;
@@ -859,7 +859,7 @@ a.twinoid {
   position: absolute;
   margin-left: -50px;
   margin-top: -8px;
-  background-image: url("/img/design/logo_twinoid.gif");
+  background-image: url("../img/design/logo_twinoid.gif");
   height: 23px;
   width: 117px;
   font-family: trebuchet ms, arial;
@@ -880,7 +880,7 @@ a.twinoid:hover {
   color: white;
 }
 .log {
-  background-image: url("/img/design/fond_log.gif");
+  background-image: url("../img/design/fond_log.gif");
   height: 34px;
   background-repeat: repeat-x;
   background-position: right top;
@@ -890,7 +890,7 @@ a.twinoid:hover {
   margin-left: auto;
   width: 1008px;
   height: 34px;
-  background-image: url("/img/design/deco_log.jpg");
+  background-image: url("../img/design/deco_log.jpg");
   background-repeat: no-repeat;
 }
 .log .menu2 .menulog {
@@ -904,7 +904,7 @@ a.twinoid:hover {
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
-  background-image: url("/img/icons/small_chrono.gif");
+  background-image: url("../img/icons/small_chrono.gif");
   height: 16px;
   background-repeat: no-repeat;
   float: left;
@@ -967,13 +967,13 @@ a.twinoid:hover {
   background-repeat: no-repeat;
   background-color: #3f6c43;
   text-align: left;
-  background-image: url("/img/design/fond_form.gif");
+  background-image: url("../img/design/fond_form.gif");
   border: 0px;
   color: #ffee92;
   vertical-align: -10%;
 }
 .log .menu2 .menuform input.green:focus {
-  background-image: url("/img/design/fond_form2.gif");
+  background-image: url("../img/design/fond_form2.gif");
 }
 .log .menu2 .menuform input.btgreen,
 .log .menu2 .menuform .btgreen {
@@ -981,12 +981,12 @@ a.twinoid:hover {
   border: 0px;
   height: 25px;
   width: 85px;
-  background-image: url("/img/design/button_green.gif");
+  background-image: url("../img/design/button_green.gif");
   vertical-align: -10%;
   cursor: pointer;
 }
 .log .menu2 .menuform .btgreen:hover {
-  background-image: url("/img/design/button_green2.gif");
+  background-image: url("../img/design/button_green2.gif");
 }
 .log .menu2 .menuform .bttexte {
   font-family: trebuchet ms, arial;
@@ -1000,14 +1000,14 @@ a.twinoid:hover {
 }
 .centerHeader2 {
   width: 1008px;
-  background-image: url("/img/design/hp_header.jpg");
+  background-image: url("../img/design/hp_header.jpg");
   background-position: left top;
   background-repeat: no-repeat;
   height: 492px;
 }
 .centerFooter {
   height: 276px;
-  background-image: url("/img/design/hp_footer.jpg");
+  background-image: url("../img/design/hp_footer.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
 }
@@ -1029,7 +1029,7 @@ a.twinoid:hover {
   text-align: center;
   height: 40px;
   background-repeat: no-repeat;
-  background-image: url("/img/design/hp_menu.jpg");
+  background-image: url("../img/design/hp_menu.jpg");
 }
 .intro2 .bloc a.choix1 {
   position: absolute;
@@ -1037,14 +1037,14 @@ a.twinoid:hover {
   width: 105px;
   margin-top: 0px;
   background-repeat: no-repeat;
-  background-image: url("/img/loc/fr/hp_combat_bt.gif");
+  background-image: url("../img/loc/fr/hp_combat_bt.gif");
   padding-bottom: 4px;
 }
 .intro2 .bloc a.choix1:hover {
-  background-image: url("/img/loc/fr/hp_combat_bt2.gif");
+  background-image: url("../img/loc/fr/hp_combat_bt2.gif");
 }
 .intro2 .bloc a.choix1:focus {
-  background-image: url("/img/loc/fr/hp_combat_bt2.gif");
+  background-image: url("../img/loc/fr/hp_combat_bt2.gif");
 }
 .intro2 .bloc a.choix2 {
   position: absolute;
@@ -1052,14 +1052,14 @@ a.twinoid:hover {
   width: 105px;
   margin-top: 105px;
   background-repeat: no-repeat;
-  background-image: url("/img/loc/fr/hp_dinoz_bt.gif");
+  background-image: url("../img/loc/fr/hp_dinoz_bt.gif");
   padding-bottom: 4px;
 }
 .intro2 .bloc a.choix2:hover {
-  background-image: url("/img/loc/fr/hp_dinoz_bt2.gif");
+  background-image: url("../img/loc/fr/hp_dinoz_bt2.gif");
 }
 .intro2 .bloc a.choix2:focus {
-  background-image: url("/img/loc/fr/hp_dinoz_bt2.gif");
+  background-image: url("../img/loc/fr/hp_dinoz_bt2.gif");
 }
 .intro2 .bloc a.choix3 {
   position: absolute;
@@ -1067,13 +1067,13 @@ a.twinoid:hover {
   height: 100px;
   width: 105px;
   background-repeat: no-repeat;
-  background-image: url("/img/loc/fr/hp_guerre_bt.gif");
+  background-image: url("../img/loc/fr/hp_guerre_bt.gif");
 }
 .intro2 .bloc a.choix3:hover {
-  background-image: url("/img/loc/fr/hp_guerre_bt2.gif");
+  background-image: url("../img/loc/fr/hp_guerre_bt2.gif");
 }
 .intro2 .bloc a.choix3:focus {
-  background-image: url("/img/loc/fr/hp_guerre_bt2.gif");
+  background-image: url("../img/loc/fr/hp_guerre_bt2.gif");
 }
 .intro2 .bloc a:hover {
   background-color: transparent;
@@ -1084,7 +1084,7 @@ a.twinoid:hover {
   width: 496px;
   height: 308px;
   background-repeat: no-repeat;
-  background-image: url("/img/design/fond_module.jpg");
+  background-image: url("../img/design/fond_module.jpg");
 }
 .intro2 .bloc .module .swf {
   padding-top: 4px;
@@ -1149,7 +1149,7 @@ a.twinoid:hover {
 .intro2 .bloc .minipopup {
   position: absolute;
   z-index: 3;
-  background: transparent url("/img/design/minipopup.png") no-repeat top left;
+  background: transparent url("../img/design/minipopup.png") no-repeat top left;
   width: 458px;
   height: 162px;
   margin-left: 25px;
@@ -1183,7 +1183,7 @@ a.twinoid:hover {
   float: left;
   position: relative;
   margin-right: 25px;
-  background: transparent url("/img/icons/elem_3.gif") no-repeat top left;
+  background: transparent url("../img/icons/elem_3.gif") no-repeat top left;
   padding-left: 28px;
   height: 22px;
 }
@@ -1240,7 +1240,7 @@ a.boutonInsc:hover {
   min-width: 235px;
 }
 .subscribe2 .import .bgimport {
-  background-image: url("/img/design/import_bg.jpg");
+  background-image: url("../img/design/import_bg.jpg");
   background-repeat: no-repeat;
   height: 287px;
   width: 216px;
@@ -1309,7 +1309,7 @@ a.boutonInsc:hover {
 }
 .subscribe2 .form3 {
   margin-top: 10px;
-  background-image: url("/img/design/fond_suscribe.jpg");
+  background-image: url("../img/design/fond_suscribe.jpg");
   background-repeat: no-repeat;
   width: 397px;
   background-color: #f3ca92;
@@ -1394,12 +1394,12 @@ input.field2 {
   font-weight: bold;
   margin-top: 4px;
   border: 0px;
-  background-image: url("/img/design/form_field.gif");
+  background-image: url("../img/design/form_field.gif");
   background-repeat: no-repeat;
   background-color: transparent;
 }
 input.field2:focus {
-  background-image: url("/img/design/form_field_hover.gif");
+  background-image: url("../img/design/form_field_hover.gif");
 }
 label.check2 {
   display: block;
@@ -1428,7 +1428,7 @@ label.check2:hover {
   text-decoration: none;
   text-align: left;
   cursor: pointer;
-  background-image: url("/img/design/button.gif");
+  background-image: url("../img/design/button.gif");
   background-repeat: no-repeat;
 }
 input.button2 {
@@ -1444,7 +1444,7 @@ a.button2:first-letter {
 input.button2:hover,
 a.button2:hover {
   color: white;
-  background-image: url("/img/design/button_hover.gif");
+  background-image: url("../img/design/button_hover.gif");
 }
 .parrain ul.tabs {
   margin-left: 90px;
@@ -1467,7 +1467,7 @@ a.button2:hover {
   padding-left: 15px;
   padding-right: 15px;
   display: inline;
-  background-image: url("/img/design/parrain_off.gif");
+  background-image: url("../img/design/parrain_off.gif");
   background-repeat: no-repeat;
   height: 21px;
   color: #fde1b9;
@@ -1496,7 +1496,7 @@ a.button2:hover {
   border-radius: 0px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  background-image: url("/img/design/parrain_on.gif");
+  background-image: url("../img/design/parrain_on.gif");
   width: 91px;
   color: #4f220a;
   font-size: 16px;
@@ -1529,13 +1529,13 @@ a.button2:hover {
   padding-bottom: 5px;
 }
 .parrain .fond .feross {
-  list-style: url("/img/icons/small_dot.gif");
+  list-style: url("../img/icons/small_dot.gif");
   width: 459px;
   height: 139px;
   padding-top: 15px;
   padding-left: 30px;
   margin: auto;
-  background-image: url("/img/design/fond_feross.jpg");
+  background-image: url("../img/design/fond_feross.jpg");
   background-repeat: no-repeat;
   line-height: 15px;
 }
@@ -1561,7 +1561,7 @@ a.button2:hover {
 }
 .gazette .menu ul {
   height: 25px;
-  list-style: url("/img/icons/small_dot.gif");
+  list-style: url("../img/icons/small_dot.gif");
   background-color: #fbd7a2;
 }
 .gazette .menu li {
@@ -1580,7 +1580,7 @@ a.button2:hover {
   margin-bottom: 10px;
 }
 .gazette .headergaz {
-  background-image: url("/img/loc/fr/gazette_header.jpg");
+  background-image: url("../img/loc/fr/gazette_header.jpg");
   background-repeat: repeat-y;
   background-position: left bottom;
   height: 86px;
@@ -1612,7 +1612,7 @@ a.button2:hover {
 }
 .gazette .last a:hover {
   position: absolute;
-  background-image: url("/img/design/gazette_previous.gif");
+  background-image: url("../img/design/gazette_previous.gif");
   background-repeat: repeat-y;
   margin-left: 6px;
   width: 13px;
@@ -1628,7 +1628,7 @@ a.button2:hover {
 }
 .gazette .next a:hover {
   position: absolute;
-  background-image: url("/img/design/gazette_next.gif");
+  background-image: url("../img/design/gazette_next.gif");
   background-repeat: repeat-y;
   margin-left: 675px;
   width: 13px;
@@ -1636,7 +1636,7 @@ a.button2:hover {
   background-color: transparent;
 }
 .gazette .coregaz {
-  background-image: url("/img/design/gazette_core.jpg");
+  background-image: url("../img/design/gazette_core.jpg");
   background-repeat: repeat-y;
   overflow: auto;
 }
@@ -1648,7 +1648,7 @@ a.button2:hover {
 }
 .gazette .coregaz .fondimgGaz {
   float: right;
-  background-image: url("/img/design/gazette_fondimg.jpg");
+  background-image: url("../img/design/gazette_fondimg.jpg");
   background-repeat: no-repeat;
   height: 108px;
   width: 108px;
@@ -1705,7 +1705,7 @@ a.button2:hover {
 }
 .gazette .coregaz .fondtxtGaz {
   margin-top: 5px;
-  background-image: url("/img/design/gazette_texture.gif");
+  background-image: url("../img/design/gazette_texture.gif");
   min-height: 38px;
   border: 1px solid #d2c3a7;
   padding-bottom: 5px;
@@ -1718,7 +1718,7 @@ a.button2:hover {
   min-height: 30px;
 }
 .gazette .coregaz .titreactu {
-  background-image: url("/img/loc/fr/actu.jpg");
+  background-image: url("../img/loc/fr/actu.jpg");
   background-repeat: no-repeat;
   height: 30px;
 }
@@ -1729,7 +1729,7 @@ a.button2:hover {
   min-height: 30px;
 }
 .gazette .coregaz .titrezoom {
-  background-image: url("/img/loc/fr/zoom.jpg");
+  background-image: url("../img/loc/fr/zoom.jpg");
   background-repeat: no-repeat;
   height: 30px;
 }
@@ -1739,7 +1739,7 @@ a.button2:hover {
   width: 152px;
 }
 .gazette .coregaz .titrebreves {
-  background-image: url("/img/loc/fr/breves.jpg");
+  background-image: url("../img/loc/fr/breves.jpg");
   background-repeat: no-repeat;
   height: 30px;
 }
@@ -1750,12 +1750,12 @@ a.button2:hover {
   width: 152px;
 }
 .gazette .coregaz .titresavoir {
-  background-image: url("/img/loc/fr/savoir.jpg");
+  background-image: url("../img/loc/fr/savoir.jpg");
   background-repeat: no-repeat;
   height: 30px;
 }
 .gazette .coregaz .trait {
-  background-image: url("/img/design/trait.gif");
+  background-image: url("../img/design/trait.gif");
   min-width: 149px;
   height: 1px;
   margin-top: 5px;
@@ -1770,19 +1770,19 @@ a.button2:hover {
   min-height: 30px;
 }
 .gazette .coregaz .deux .titredeux {
-  background-image: url("/img/loc/fr/gazette_complements.jpg");
+  background-image: url("../img/loc/fr/gazette_complements.jpg");
   background-repeat: no-repeat;
   width: 650px;
   height: 30px;
 }
 .gazette .coregaz .deux .jeudeux {
-  background-image: url("/img/loc/fr/gazette_jeux.jpg");
+  background-image: url("../img/loc/fr/gazette_jeux.jpg");
   background-repeat: no-repeat;
   width: 649px;
   height: 30px;
 }
 .gazette .coregaz .deux .horoscodeux {
-  background-image: url("/img/loc/fr/horoscope.jpg");
+  background-image: url("../img/loc/fr/horoscope.jpg");
   background-repeat: no-repeat;
   width: 650px;
   height: 30px;
@@ -1808,21 +1808,21 @@ a.button2:hover {
   font-weight: bolder;
 }
 .gazette .coregaz .deux .list {
-  background-image: url("/img/design/horosco_dino.jpg");
+  background-image: url("../img/design/horosco_dino.jpg");
   background-repeat: no-repeat;
   width: 632px;
   height: 1065px;
   margin: auto;
 }
 .gazette .coregaz .deux .tiretGaz {
-  background-image: url("/img/design/tiretgaz.gif");
+  background-image: url("../img/design/tiretgaz.gif");
   background-repeat: no-repeat;
   height: 1px;
   width: 625px;
 }
 .gazette .footergaz {
   background-position: left bottom;
-  background-image: url("/img/design/gazette_footer.jpg");
+  background-image: url("../img/design/gazette_footer.jpg");
   background-repeat: no-repeat;
   height: 43px;
 }
@@ -1896,7 +1896,7 @@ h3:first-letter {
   font-size: 115%;
 }
 .largeSection h2 {
-  background-image: url("/img/design/title_h2_long.gif");
+  background-image: url("../img/design/title_h2_long.gif");
 }
 p {
   line-height: 12pt;
@@ -1916,7 +1916,7 @@ div.clear {
   height: 45px;
   margin-left: -15px;
   margin-bottom: 20px;
-  background-image: url("/img/design/title_h1.gif");
+  background-image: url("../img/design/title_h1.gif");
   background-position: left bottom;
   background-repeat: no-repeat;
 }
@@ -1976,7 +1976,7 @@ div.box1 {
   background-color: #85b316;
   min-height: 32px;
   background-repeat: no-repeat;
-  background-image: url("/img/icons/confirm.png");
+  background-image: url("../img/icons/confirm.png");
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -1989,7 +1989,7 @@ div.help {
   color: #fce3bc;
   font-size: 10pt;
   background-color: #bc683c;
-  background-image: url("/img/icons/small_missAct.gif");
+  background-image: url("../img/icons/small_missAct.gif");
   background-position: 5px 8px;
   background-repeat: no-repeat;
 }
@@ -2072,7 +2072,7 @@ pre.error {
   margin-left: -210px;
   width: 392px;
   height: 316px;
-  background-image: url("/img/art/raijin.png");
+  background-image: url("../img/art/raijin.png");
   background-repeat: no-repeat;
 }
 .art_hpsky2 img {
@@ -2080,7 +2080,7 @@ pre.error {
   margin-left: 700px;
   width: 398px;
   height: 334px;
-  background-image: url("/img/art/fee.png");
+  background-image: url("../img/art/fee.png");
   background-repeat: no-repeat;
 }
 .art_hpsky3 img {
@@ -2089,7 +2089,7 @@ pre.error {
   margin-left: -110px;
   width: 392px;
   height: 316px;
-  background-image: url("/img/art/moueffeHp.png");
+  background-image: url("../img/art/moueffeHp.png");
   background-repeat: no-repeat;
 }
 .art_hpsky4 img {
@@ -2098,7 +2098,7 @@ pre.error {
   margin-top: 50px;
   width: 398px;
   height: 334px;
-  background-image: url("/img/art/kabuk_hp.png");
+  background-image: url("../img/art/kabuk_hp.png");
   background-repeat: no-repeat;
 }
 .art_hpsky5 img {
@@ -2107,7 +2107,7 @@ pre.error {
   margin-left: -140px;
   width: 355px;
   height: 348px;
-  background-image: url("/img/art/moueffedemon_hp.png");
+  background-image: url("../img/art/moueffedemon_hp.png");
   background-repeat: no-repeat;
 }
 .art_hpsky6 img {
@@ -2116,14 +2116,14 @@ pre.error {
   margin-top: 50px;
   width: 310px;
   height: 236px;
-  background-image: url("/img/art/kabudemon_hp.png");
+  background-image: url("../img/art/kabudemon_hp.png");
   background-repeat: no-repeat;
 }
 .art_news {
   margin-left: -165px;
   width: 838px;
   height: 600px;
-  background-image: url("/img/art/welcome.jpg");
+  background-image: url("../img/art/welcome.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
 }
@@ -2133,7 +2133,7 @@ pre.error {
   width: 171px;
   height: 250px;
   margin-top: -190px;
-  background-image: url("/img/art/paperboy.png");
+  background-image: url("../img/art/paperboy.png");
   z-index: 10;
 }
 .art_parrain img {
@@ -2142,14 +2142,14 @@ pre.error {
   margin-left: 510px;
   width: 156px;
   height: 444px;
-  background-image: url("/img/art/isabella.png");
+  background-image: url("../img/art/isabella.png");
   z-index: 10;
 }
 .art_bao img {
   margin-top: 30px;
   width: 322px;
   height: 451px;
-  background-image: url("/img/art/bao_hp.png");
+  background-image: url("../img/art/bao_hp.png");
 }
 .art_kabu img {
   position: absolute;
@@ -2157,7 +2157,7 @@ pre.error {
   margin-left: 340px;
   width: 216px;
   height: 196px;
-  background-image: url("/img/art/kabuki.png");
+  background-image: url("../img/art/kabuki.png");
 }
 .art_mandra img {
   position: absolute;
@@ -2166,7 +2166,7 @@ pre.error {
   z-index: 1;
   margin-left: 500px;
   margin-top: -50px;
-  background-image: url("/img/art/mandragore.png");
+  background-image: url("../img/art/mandragore.png");
 }
 .art_zenit img {
   position: absolute;
@@ -2174,13 +2174,13 @@ pre.error {
   margin-left: 525px;
   width: 152px;
   height: 394px;
-  background-image: url("/img/art/zenit.png");
+  background-image: url("../img/art/zenit.png");
   z-index: 10;
 }
 .art_pigmou img {
   width: 221px;
   height: 285px;
-  background-image: url("/img/art/pigmou_01.png");
+  background-image: url("../img/art/pigmou_01.png");
 }
 .art_goupi01 img {
   position: absolute;
@@ -2188,7 +2188,7 @@ pre.error {
   margin-top: -80px;
   width: 150px;
   height: 152px;
-  background-image: url("/img/art/goupi_01.png");
+  background-image: url("../img/art/goupi_01.png");
 }
 .art_goupi02 img {
   position: absolute;
@@ -2196,7 +2196,7 @@ pre.error {
   margin-top: -20px;
   width: 112px;
   height: 90px;
-  background-image: url("/img/art/goupi_02.png");
+  background-image: url("../img/art/goupi_02.png");
 }
 .art_goupi03 img {
   position: absolute;
@@ -2204,7 +2204,7 @@ pre.error {
   margin-top: -40px;
   width: 122px;
   height: 111px;
-  background-image: url("/img/art/goupi_03.png");
+  background-image: url("../img/art/goupi_03.png");
 }
 .art_rocky01 img {
   position: absolute;
@@ -2212,7 +2212,7 @@ pre.error {
   margin-top: -15px;
   width: 338px;
   height: 335px;
-  background-image: url("/img/art/rocky_01.png");
+  background-image: url("../img/art/rocky_01.png");
 }
 .black {
   position: fixed;
@@ -2238,7 +2238,7 @@ pre.error {
   outline: 2px solid black;
 }
 .sitePopup ul {
-  list-style: url("/img/icons/small_dot.gif");
+  list-style: url("../img/icons/small_dot.gif");
   padding: 5px;
   padding-left: 30px;
   margin-left: 10px;
@@ -2285,7 +2285,7 @@ pre.error {
 #menu .timer {
   color: #52646b;
   background-color: transparent;
-  background-image: url("/img/icons/small_chrono.gif");
+  background-image: url("../img/icons/small_chrono.gif");
 }
 #menu .footer .titremini {
   font-size: 10px;
@@ -2415,7 +2415,7 @@ pre.error {
   color: #dfa463;
 }
 #poll #mt_tools a.mt_close {
-  background-image: url("/img/icons/small_delete.gif");
+  background-image: url("../img/icons/small_delete.gif");
   position: relative;
   top: 105px;
   left: 208px;
@@ -2439,7 +2439,7 @@ pre.error {
   margin-left: 774px;
   width: 110px;
   height: 31px;
-  background-image: url("/img/design/compteurAbo.gif");
+  background-image: url("../img/design/compteurAbo.gif");
   background-repeat: no-repeat;
   color: #ffee92;
   text-align: center;
@@ -2486,7 +2486,7 @@ pre.error {
   line-height: 0pt;
   width: 130px;
   height: 15px;
-  background-image: url("/img/design/sideMenu_header.gif");
+  background-image: url("../img/design/sideMenu_header.gif");
   background-repeat: no-repeat;
 }
 #menu .footer,
@@ -2496,13 +2496,13 @@ pre.error {
   padding-right: 15px;
   padding-bottom: 20px;
   background-position: left bottom;
-  background-image: url("/img/design/sideMenu_footer.gif");
+  background-image: url("../img/design/sideMenu_footer.gif");
   background-repeat: no-repeat;
 }
 #menu .bg,
 #langs .bg {
   width: 130px;
-  background-image: url("/img/design/sideMenu_bg.gif");
+  background-image: url("../img/design/sideMenu_bg.gif");
 }
 #menu ul,
 #langs ul {
@@ -2562,7 +2562,7 @@ pre.error {
 #menu2 .bg,
 #langs2 .bg {
   width: 130px;
-  background-image: url("/img/design/hp_fond_menu.gif");
+  background-image: url("../img/design/hp_fond_menu.gif");
   background-repeat: no-repeat;
 }
 #menu2 ul,
@@ -2661,12 +2661,12 @@ pre.error {
   font-size: 10pt;
   font-weight: bold;
   text-decoration: none;
-  background-image: url("/img/design/button_help.gif");
+  background-image: url("../img/design/button_help.gif");
   background-repeat: no-repeat;
 }
 #menu a.bHelp:hover {
   color: white;
-  background-image: url("/img/design/button_help_hover.gif");
+  background-image: url("../img/design/button_help_hover.gif");
   background-color: transparent;
 }
 #menu .genInfos {
@@ -2733,7 +2733,7 @@ ul.adminBox input {
   color: #ffee92;
   border: 0px;
   background-color: transparent;
-  background-image: url("/img/design/goldbox2.gif");
+  background-image: url("../img/design/goldbox2.gif");
   background-repeat: no-repeat;
   cursor: help;
 }
@@ -2752,7 +2752,7 @@ ul.adminBox input {
   -webkit-border-radius: 0px;
 }
 #dinozList .iconMenu a.newBankBt {
-  background-image: url("/img/design/newBankBt1.gif");
+  background-image: url("../img/design/newBankBt1.gif");
   width: 95px;
   height: 25px;
   margin-bottom: 5px;
@@ -2767,63 +2767,63 @@ ul.adminBox input {
   padding-left: 48px;
 }
 #dinozList .iconMenu a.newBankBt:hover {
-  background-image: url("/img/design/newBankBt2.gif");
+  background-image: url("../img/design/newBankBt2.gif");
   background-color: transparent;
   color: white;
 }
 #dinozList .iconMenu a.iconor {
   margin-right: 5px;
-  background-image: url("/img/icons/act_shop.gif");
+  background-image: url("../img/icons/act_shop.gif");
   width: 32px;
   height: 32px;
   float: left;
 }
 #dinozList .iconMenu a.iconor:hover {
   margin-right: 5px;
-  background-image: url("/img/icons/act_shop2.gif");
+  background-image: url("../img/icons/act_shop2.gif");
 }
 #dinozList .iconMenu a.iconaction {
   margin-right: 5px;
-  background-image: url("/img/icons/act_auto_action.gif");
+  background-image: url("../img/icons/act_auto_action.gif");
   width: 32px;
   height: 32px;
   float: left;
 }
 #dinozList .iconMenu a.iconaction:hover {
-  background-image: url("/img/icons/act_auto_action2.gif");
+  background-image: url("../img/icons/act_auto_action2.gif");
 }
 #dinozList .iconMenu a.iconboutik {
   margin-right: 5px;
-  background-image: url("/img/icons/act_boutique.gif");
+  background-image: url("../img/icons/act_boutique.gif");
   width: 32px;
   height: 32px;
   float: left;
 }
 #dinozList .iconMenu a.iconboutik:hover {
-  background-image: url("/img/icons/act_boutique2.gif");
+  background-image: url("../img/icons/act_boutique2.gif");
 }
 #dinozList .iconMenu a.iconclan {
   margin-right: 5px;
-  background-image: url("/img/icons/act_castle.gif");
+  background-image: url("../img/icons/act_castle.gif");
   width: 32px;
   height: 32px;
   float: left;
 }
 #dinozList .iconMenu a.iconclan:hover {
-  background-image: url("/img/icons/act_castle2.gif");
+  background-image: url("../img/icons/act_castle2.gif");
 }
 #dinozList .iconMenu a.icondojo {
-  background-image: url("/img/icons/act_dojo.gif");
+  background-image: url("../img/icons/act_dojo.gif");
   width: 32px;
   height: 32px;
   float: left;
 }
 #dinozList .iconMenu a.icondojo:hover {
-  background-image: url("/img/icons/act_dojo2.gif");
+  background-image: url("../img/icons/act_dojo2.gif");
 }
 #dinozList a.bankBtMoney3 {
   display: block;
-  background-image: url("/img/design/promoBg.png");
+  background-image: url("../img/design/promoBg.png");
   padding-top: 72px;
   width: 145px;
   height: 137px;
@@ -2865,7 +2865,7 @@ ul.adminBox input {
 }
 #dinozList a.bankBtMoney3 div#money3Time {
   margin: auto;
-  background: transparent url("/img/design/timerBg.png") no-repeat;
+  background: transparent url("../img/design/timerBg.png") no-repeat;
   padding: 12px 9px;
   width: 106px;
   height: 22px;
@@ -3052,7 +3052,7 @@ span.tinyBar span {
   padding-right: 14px;
 }
 .ul {
-  list-style: url("/img/icons/small_dot.gif");
+  list-style: url("../img/icons/small_dot.gif");
   width: 380px;
   padding: 5px;
   padding-left: 30px;
@@ -3103,7 +3103,7 @@ span.tinyBar span {
   white-space: nowrap;
   border: 1px solid #356847;
   background-color: #c64e36;
-  background-image: url("/img/design/table_header.gif");
+  background-image: url("../img/design/table_header.gif");
   background-position: left bottom;
 }
 .table tr th.small {
@@ -3135,11 +3135,11 @@ span.tinyBar span {
   color: #710;
   background-color: #f3ca92;
   border: 1px solid #c88f44;
-  background-image: url("/img/design/table_cell.gif");
+  background-image: url("../img/design/table_cell.gif");
   background-position: -10px 0px;
 }
 .table tr td.tirets {
-  background-image: url("/img/design/tirets.gif");
+  background-image: url("../img/design/tirets.gif");
   width: 636px;
   background-repeat: no-repeat;
 }
@@ -3152,7 +3152,7 @@ span.tinyBar span {
   background-position: -10px 0px;
 }
 .table tr.even td {
-  background-image: url("/img/design/table_cell_even.gif");
+  background-image: url("../img/design/table_cell_even.gif");
 }
 .table tr td a {
   color: black;
@@ -3171,7 +3171,7 @@ table.select tr td {
 }
 .table tr.select:hover td,
 table.select tr:hover td {
-  background-image: url("/img/design/table_cell_hover2.gif");
+  background-image: url("../img/design/table_cell_hover2.gif");
   color: white;
 }
 .table tr.select:hover td a,
@@ -3181,10 +3181,10 @@ table.select tr:hover td a {
 .table tr.select:hover td,
 table.select tr:hover td {
   border-color: #9a4029;
-  background-image: url("/img/design/table_cell.gif");
+  background-image: url("../img/design/table_cell.gif");
 }
 .table tr.important td {
-  background-image: url("/img/design/table_cell_hover.gif");
+  background-image: url("../img/design/table_cell_hover.gif");
   border-color: #7a261b;
 }
 .table tr.important td,
@@ -3217,7 +3217,7 @@ a.button {
   text-decoration: none;
   text-align: left;
   cursor: pointer;
-  background-image: url("/img/design/button.gif");
+  background-image: url("../img/design/button.gif");
   background-repeat: no-repeat;
   border-radius: 0px;
   -moz-border-radius: 0px;
@@ -3237,7 +3237,7 @@ a.button:first-letter {
 input.button:hover,
 a.button:hover {
   color: white;
-  background-image: url("/img/design/button_hover.gif");
+  background-image: url("../img/design/button_hover.gif");
   background-color: transparent;
 }
 a.buttonOff {
@@ -3247,7 +3247,7 @@ a.buttonOff {
   cursor: default;
 }
 a.buttonOff:hover {
-  background-image: url("/img/design/button.gif");
+  background-image: url("../img/design/button.gif");
 }
 .tinyButton {
   padding-left: 5px;
@@ -3273,7 +3273,7 @@ a.bSmall {
   width: 80px;
   padding-top: 5px;
   padding-right: 5px;
-  background-image: url("/img/design/button_small.gif");
+  background-image: url("../img/design/button_small.gif");
 }
 a.bLong {
   padding-top: 4px;
@@ -3286,7 +3286,7 @@ input.bSmall {
 }
 input.bSmall:hover,
 a.bSmall:hover {
-  background-image: url("/img/design/button_small_hover.gif");
+  background-image: url("../img/design/button_small_hover.gif");
 }
 input.field {
   width: 200px;
@@ -3298,26 +3298,26 @@ input.field {
   font-size: 9pt;
   font-weight: bold;
   border: none;
-  background-image: url("/img/design/form_field.gif");
+  background-image: url("../img/design/form_field.gif");
   background-repeat: no-repeat;
   background-color: transparent;
 }
 input.fieldXL {
   width: 317px;
-  background-image: url("/img/design/form_field_xl.gif");
+  background-image: url("../img/design/form_field_xl.gif");
 }
 input.field:focus {
-  background-image: url("/img/design/form_field_hover.gif");
+  background-image: url("../img/design/form_field_hover.gif");
 }
 input.fieldXL:focus {
-  background-image: url("/img/design/form_field_xl_hover.gif");
+  background-image: url("../img/design/form_field_xl_hover.gif");
 }
 input.small {
   width: 64px;
-  background-image: url("/img/design/form_field_small.gif");
+  background-image: url("../img/design/form_field_small.gif");
 }
 input.small:focus {
-  background-image: url("/img/design/form_field_small_hover.gif");
+  background-image: url("../img/design/form_field_small_hover.gif");
 }
 textarea {
   color: #ffee92;
@@ -3417,13 +3417,13 @@ form.large table textarea {
   padding-left: 40px;
 }
 .dinoz {
-  background-image: url("/img/loc/fr/dinoz_bg.jpg");
+  background-image: url("../img/loc/fr/dinoz_bg.jpg");
   background-repeat: no-repeat;
   min-height: 265px;
   margin-top: 5px;
 }
 .bgnoel {
-  background-image: url("/img/loc/fr/noel_bg.jpg");
+  background-image: url("../img/loc/fr/noel_bg.jpg");
 }
 form.teleport {
   position: absolute;
@@ -3474,7 +3474,7 @@ form.teleport option {
   position: absolute;
   margin-left: 205px;
   margin-top: 69px;
-  background-image: url("/img/design/left.gif");
+  background-image: url("../img/design/left.gif");
   width: 15px;
   height: 21px;
   border-radius: 0px;
@@ -3482,14 +3482,14 @@ form.teleport option {
   -webkit-border-radius: 0px;
 }
 .dinoz .left:hover {
-  background-image: url("/img/design/left2.gif");
+  background-image: url("../img/design/left2.gif");
   background-color: transparent;
 }
 .dinoz .right {
   position: absolute;
   margin-left: 490px;
   margin-top: 69px;
-  background-image: url("/img/design/right.gif");
+  background-image: url("../img/design/right.gif");
   width: 15px;
   height: 21px;
   border-radius: 0px;
@@ -3497,7 +3497,7 @@ form.teleport option {
   -webkit-border-radius: 0px;
 }
 .dinoz .right:hover {
-  background-image: url("/img/design/right2.gif");
+  background-image: url("../img/design/right2.gif");
   background-color: transparent;
 }
 .dinoz .title {
@@ -3594,7 +3594,7 @@ form.teleport option {
   line-height: 0pt;
 }
 .bgbar {
-  background-image: url("/img/design/bar_mana_bg.gif");
+  background-image: url("../img/design/bar_mana_bg.gif");
   background-repeat: no-repeat;
   width: 100px;
   height: 13px;
@@ -3606,7 +3606,7 @@ form.teleport option {
   margin-top: -2px;
 }
 .dinoz .warning .bar {
-  background-image: url("/img/design/anim_bar_warning.gif");
+  background-image: url("../img/design/anim_bar_warning.gif");
 }
 .dinoz .bar:hover {
   outline: 2px solid white;
@@ -3663,7 +3663,7 @@ form.teleport option {
   border: 1px solid transparent;
   border-color: #9e5941;
   overflow: hidden;
-  background-image: url("/img/design/dinoz_bg_mission.gif");
+  background-image: url("../img/design/dinoz_bg_mission.gif");
   background-repeat: no-repeat;
 }
 .mission {
@@ -3703,7 +3703,7 @@ form.teleport option {
   color: black;
 }
 .dinozPanels {
-  background-image: url("/img/design/dinoz_panels_bg.gif");
+  background-image: url("../img/design/dinoz_panels_bg.gif");
   background-repeat: repeat-y;
 }
 .dinozPanels .actions {
@@ -3736,14 +3736,14 @@ form.teleport option {
 }
 .dinozPanels .footer {
   height: 24px;
-  background-image: url("/img/design/dinoz_footer.gif");
+  background-image: url("../img/design/dinoz_footer.gif");
 }
 .dinozPanels .actions .follow {
   height: 32px;
   padding-bottom: 5px;
   margin-bottom: 10px;
   border-bottom: 1px dashed #8e3e26;
-  background-image: url("/img/icons/large_group.gif");
+  background-image: url("../img/icons/large_group.gif");
   background-position: left 0px;
   background-repeat: no-repeat;
   padding-left: 40px;
@@ -3760,7 +3760,7 @@ form.teleport option {
   color: #fff5b6;
   border: 1px solid #ffe7aa;
   background-position: 2px center;
-  background-image: url("/img/icons/large_death.gif");
+  background-image: url("../img/icons/large_death.gif");
   background-repeat: no-repeat;
   background-color: #a00;
 }
@@ -3968,7 +3968,7 @@ ul.elements li {
   color: white;
   text-align: left;
   letter-spacing: -0.2pt;
-  background-image: url("/img/design/element_bg.gif");
+  background-image: url("../img/design/element_bg.gif");
   background-position: 7px 5px;
   background-repeat: no-repeat;
   cursor: help;
@@ -4051,18 +4051,18 @@ a.action:hover img {
 .tip {
   width: 250px;
   background-color: #7a402a;
-  background-image: url("/img/design/tip_bg.gif");
+  background-image: url("../img/design/tip_bg.gif");
   border: 2px solid #86401e;
 }
 .tip .header {
-  background-image: url("/img/design/tip_header.gif");
+  background-image: url("../img/design/tip_header.gif");
   background-repeat: no-repeat;
 }
 .tip .footer {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 15px;
-  background-image: url("/img/design/tip_footer.gif");
+  background-image: url("../img/design/tip_footer.gif");
   background-repeat: no-repeat;
   background-position: left bottom;
   min-height: 50px;
@@ -4129,7 +4129,7 @@ ul.tabs {
   margin-left: -5px;
   margin-right: -5px;
   background-color: #9a4029;
-  background-image: url("/img/design/tabsBg.jpg");
+  background-image: url("../img/design/tabsBg.jpg");
   background-repeat: no-repeat;
   border-bottom: 1px solid #ffe7aa;
 }
@@ -4166,7 +4166,7 @@ ul.tabs li.active a {
 .tutoClose {
   margin-left: 500px;
   background-repeat: no-repeat;
-  background-image: url("/img/design/tuto_closeBg.gif");
+  background-image: url("../img/design/tuto_closeBg.gif");
   width: 25px;
   height: 20px;
   padding-left: 5px;
@@ -4220,7 +4220,7 @@ ul.tabs li.active a {
 }
 .tuto {
   background-repeat: repeat-y;
-  background-image: url("/img/design/tuto_bg_pix.gif");
+  background-image: url("../img/design/tuto_bg_pix.gif");
   margin-top: -2px;
   margin-bottom: 5px;
 }
@@ -4254,14 +4254,14 @@ ul.tabs li.active a {
   font-style: normal;
 }
 .tuto .headerbox {
-  background-image: url("/img/design/tuto_bg_header.gif");
+  background-image: url("../img/design/tuto_bg_header.gif");
   background-repeat: no-repeat;
   height: 3px;
 }
 .tuto .footer {
   min-height: 113px;
   padding: 1px;
-  background-image: url("/img/design/tuto_bg_footer.gif");
+  background-image: url("../img/design/tuto_bg_footer.gif");
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -4276,19 +4276,19 @@ ul.tabs li.active a {
   background-color: #9a4029;
 }
 .dialog .box .headerbox {
-  background-image: url("/img/design/dialog_bg_header.gif");
+  background-image: url("../img/design/dialog_bg_header.gif");
   background-repeat: no-repeat;
   height: 30px;
 }
 .dialog .box {
   cursor: pointer;
   background-repeat: repeat-y;
-  background-image: url("/img/design/dialog_bg_pix.gif");
+  background-image: url("../img/design/dialog_bg_pix.gif");
 }
 .dialog .boxdefi {
   width: 490px;
   margin: auto;
-  background-image: url("/img/design/dialog_bg_header2.gif");
+  background-image: url("../img/design/dialog_bg_header2.gif");
   background-repeat: no-repeat;
 }
 .dialog .space {
@@ -4297,14 +4297,14 @@ ul.tabs li.active a {
 .dialog .box .footer {
   min-height: 148px;
   padding: 1px;
-  background-image: url("/img/design/dialog_bg_footer.gif");
+  background-image: url("../img/design/dialog_bg_footer.gif");
   background-position: bottom left;
   background-repeat: no-repeat;
 }
 .dialog .box .footerdefi {
   min-height: 130px;
   padding: 1px;
-  background-image: url("/img/design/dialog_bg_footer2.gif");
+  background-image: url("../img/design/dialog_bg_footer2.gif");
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -4396,7 +4396,7 @@ ul.tabs li.active a {
   text-decoration: none;
   font-size: 10pt;
   line-height: 12pt;
-  background-image: url("/img/design/dot.gif");
+  background-image: url("../img/design/dot.gif");
   background-position: 13px 5px;
   background-repeat: no-repeat;
   border-radius: 0px;
@@ -4450,7 +4450,7 @@ ul.tabs li.active a {
   cursor: default;
 }
 .mission .table tr.off td {
-  background-image: url("/img/design/table_cell_off.gif");
+  background-image: url("../img/design/table_cell_off.gif");
   color: #db9c57;
   border-color: #e6b57b;
   font-style: italic;
@@ -4472,7 +4472,7 @@ ul.tabs li.active a {
   padding-top: 20px;
   padding-left: 35px;
   padding-right: 35px;
-  background-image: url("/img/design/mission.gif");
+  background-image: url("../img/design/mission.gif");
   background-repeat: no-repeat;
   color: #9d6523;
   font-size: 10pt;
@@ -4496,7 +4496,7 @@ ul.tabs li.active a {
   padding-left: 10px;
   border-bottom: 1px solid #e6b778;
   background-position: left 1px;
-  background-image: url("/img/icons/small_time.gif");
+  background-image: url("../img/icons/small_time.gif");
   background-repeat: no-repeat;
 }
 .mission .briefing p.next {
@@ -4504,7 +4504,7 @@ ul.tabs li.active a {
   font-size: 12pt;
   color: black;
   background-position: left 1px;
-  background-image: url("/img/icons/small_missNew.gif");
+  background-image: url("../img/icons/small_missNew.gif");
   background-repeat: no-repeat;
 }
 .mission .briefing .options {
@@ -4567,7 +4567,7 @@ ul.tabs li.active a {
   font-style: italic;
   color: #ffee92;
   font-size: 10pt;
-  background-image: url("/img/loc/fr/desc_shop.jpg");
+  background-image: url("../img/loc/fr/desc_shop.jpg");
   background-repeat: no-repeat;
 }
 .shopDesc .contain {
@@ -4601,7 +4601,7 @@ ul.tabs li.active a {
   margin: auto;
   width: 520px;
   height: 222px;
-  background-image: url("/img/design/shop_bg.gif");
+  background-image: url("../img/design/shop_bg.gif");
   background-repeat: no-repeat;
 }
 .shop .bg .list {
@@ -4637,7 +4637,7 @@ ul.tabs li.active a {
   zoom: 1;
 }
 .shop .bg2 {
-  background-image: url("/img/design/shop_bg2.jpg");
+  background-image: url("../img/design/shop_bg2.jpg");
   height: 304px;
 }
 .shop .rehauss {
@@ -4655,7 +4655,7 @@ ul.tabs li.active a {
   padding-left: 40px;
   text-indent: 0px;
   color: #fce3bc;
-  background-image: url("/img/design/shop_arrow.gif");
+  background-image: url("../img/design/shop_arrow.gif");
   background-position: 0px 5px;
   background-repeat: no-repeat;
 }
@@ -4794,7 +4794,7 @@ ul.tabs li.active a {
   padding: 1px;
   margin-bottom: 30px;
   clear: both;
-  background-image: url("/img/design/shop_dinoz_bg.gif");
+  background-image: url("../img/design/shop_dinoz_bg.gif");
   background-position: 20px 0px;
   background-repeat: no-repeat;
 }
@@ -4947,7 +4947,7 @@ ul.fhistory li.even {
 }
 .lup .table span.link {
   text-decoration: underline;
-  background-image: url("/img/icons/small_missNew.gif");
+  background-image: url("../img/icons/small_missNew.gif");
   background-repeat: no-repeat;
   background-position: 0px 5px;
   padding-left: 15px;
@@ -5015,7 +5015,7 @@ ul.fhistory li.even {
   margin-top: 10px;
   width: 91px;
   height: 109px;
-  background-image: url("/img/design/bubble.gif");
+  background-image: url("../img/design/bubble.gif");
   background-repeat: no-repeat;
 }
 .move .side .bubble img {
@@ -5054,7 +5054,7 @@ ul.fhistory li.even {
   width: 488px;
   border: 1px solid #874b2e;
   outline: 3px solid #f1c98e;
-  background-image: url("/img/design/bord.jpg");
+  background-image: url("../img/design/bord.jpg");
   background-repeat: no-repeat;
   background-position: 0px center;
 }
@@ -5078,10 +5078,10 @@ ul.fhistory li.even {
   padding-left: 10px;
   padding-right: 10px;
   color: #ffee92;
-  background-image: url("/img/loc/fr/debriefing_bg.gif");
+  background-image: url("../img/loc/fr/debriefing_bg.gif");
 }
 .fight .debriefManawar {
-  background-image: url("/img/loc/fr/debriefingManawar_bg.gif");
+  background-image: url("../img/loc/fr/debriefingManawar_bg.gif");
 }
 .fight .debrief .icon,
 .fight .debrief .life,
@@ -5144,7 +5144,7 @@ ul.fhistory li.even {
   width: 305px;
   margin-left: 10px;
   margin-bottom: 5px;
-  background-image: url("/img/design/info_center.gif");
+  background-image: url("../img/design/info_center.gif");
   background-repeat: repeat-y;
   background-position: left top;
   min-height: 50px;
@@ -5152,11 +5152,11 @@ ul.fhistory li.even {
 }
 .user .card .header {
   height: 30px;
-  background-image: url("/img/loc/fr/info_header.gif");
+  background-image: url("../img/loc/fr/info_header.gif");
   background-repeat: no-repeat;
 }
 .user .card .footer {
-  background-image: url("/img/design/info_footer.gif");
+  background-image: url("../img/design/info_footer.gif");
   height: 16px;
   width: 305px;
 }
@@ -5242,7 +5242,7 @@ ul.fhistory li.even {
   font-weight: normal;
 }
 .user td.tit {
-  background-image: url("/img/design/listTitle_center.gif");
+  background-image: url("../img/design/listTitle_center.gif");
   background-repeat: repeat-y;
 }
 .user .title {
@@ -5254,7 +5254,7 @@ ul.fhistory li.even {
 }
 .user .title .header {
   height: 30px;
-  background-image: url("/img/loc/fr/listTitle_header.gif");
+  background-image: url("../img/loc/fr/listTitle_header.gif");
   background-repeat: no-repeat;
 }
 .user .title li {
@@ -5292,7 +5292,7 @@ ul.fhistory li.even {
   color: #ffee92;
 }
 .user .footertitle {
-  background-image: url("/img/design/listTitle_footer.gif");
+  background-image: url("../img/design/listTitle_footer.gif");
   height: 3px;
   width: 215px;
   background-repeat: no-repeat;
@@ -5301,17 +5301,17 @@ ul.fhistory li.even {
   width: 305px;
   margin-left: 10px;
   margin-bottom: 5px;
-  background-image: url("/img/design/info_center.gif");
+  background-image: url("../img/design/info_center.gif");
   background-repeat: repeat-y;
   min-height: 50px;
 }
 .user .reward .header {
   height: 30px;
-  background-image: url("/img/loc/fr/reward_header.gif");
+  background-image: url("../img/loc/fr/reward_header.gif");
   background-repeat: no-repeat;
 }
 .user .reward .footer {
-  background-image: url("/img/design/info_footer.gif");
+  background-image: url("../img/design/info_footer.gif");
   height: 16px;
   width: 305px;
 }
@@ -5338,7 +5338,7 @@ ul.fhistory li.even {
   -webkit-border-radius: 10px;
 }
 .user .dinheader {
-  background-image: url("/img/loc/fr/fond_listdinoz.gif");
+  background-image: url("../img/loc/fr/fond_listdinoz.gif");
   background-repeat: no-repeat;
   height: 21px;
   width: 526px;
@@ -5349,7 +5349,7 @@ ul.fhistory li.even {
   text-align: center;
   width: 139px;
   height: 21px;
-  background-image: url("/img/design/profilBthover.gif");
+  background-image: url("../img/design/profilBthover.gif");
   background-repeat: no-repeat;
   color: #ffee92;
   text-transform: uppercase;
@@ -5372,7 +5372,7 @@ ul.fhistory li.even {
   width: 139px;
   height: 21px;
   text-align: center;
-  background-image: url("/img/design/profilBt.gif");
+  background-image: url("../img/design/profilBt.gif");
   background-repeat: no-repeat;
   color: white;
   text-transform: uppercase;
@@ -5499,7 +5499,7 @@ ul.fhistory li.even {
   margin-left: 1px;
   padding-top: 2px;
   padding-left: 8px;
-  background-image: url("/img/design/forum_bar.gif");
+  background-image: url("../img/design/forum_bar.gif");
   background-repeat: no-repeat;
 }
 .forum ul.bar li {
@@ -5524,18 +5524,18 @@ ul.fhistory li.even {
   color: #ffee92;
   font-weight: normal;
   font-size: 10pt;
-  background-image: url("/img/icons/small_mail.gif");
+  background-image: url("../img/icons/small_mail.gif");
   background-position: 0px 4px;
   background-repeat: no-repeat;
 }
 .forum ul.bar li.readAll a {
-  background-image: url("/img/icons/small_reset.gif");
+  background-image: url("../img/icons/small_reset.gif");
 }
 .forum ul.bar li.lock a {
-  background-image: url("/img/icons/small_key.gif");
+  background-image: url("../img/icons/small_key.gif");
 }
 .forum ul.bar li.fav a {
-  background-image: url("/img/icons/small_fav.gif");
+  background-image: url("../img/icons/small_fav.gif");
 }
 .forum ul.bar li a:hover {
   color: white;
@@ -5619,7 +5619,7 @@ ul.fhistory li.even {
   padding-bottom: 10px;
   margin-bottom: 5px;
   background-color: #bc683c;
-  background-image: url("/img/icons/act_dialog.gif");
+  background-image: url("../img/icons/act_dialog.gif");
   background-position: 5px 10px;
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -5643,24 +5643,24 @@ ul.fhistory li.even {
   color: #ffee92;
 }
 .forum .themes ul li.theme_help {
-  background-image: url("/img/icons/act_help.gif");
+  background-image: url("../img/icons/act_help.gif");
 }
 .forum .themes ul li.theme_talk {
-  background-image: url("/img/icons/act_explore.gif");
+  background-image: url("../img/icons/act_explore.gif");
 }
 .forum .themes ul li.theme_moder {
-  background-image: url("/img/icons/act_fight.gif");
+  background-image: url("../img/icons/act_fight.gif");
 }
 .forum .themes ul li.theme_clans {
-  background-image: url("/img/icons/act_castle_attack.gif");
+  background-image: url("../img/icons/act_castle_attack.gif");
 }
 .forum .themes ul li.theme_rp {
-  background-image: url("/img/icons/act_rest.gif");
+  background-image: url("../img/icons/act_rest.gif");
 }
 .forum .themes ul li.theme_fav {
   padding-top: 8px;
   background-position: 5px 6px;
-  background-image: url("/img/icons/act_fav.gif");
+  background-image: url("../img/icons/act_fav.gif");
 }
 .forum .threads th {
   font-size: 9pt;
@@ -5673,7 +5673,7 @@ ul.fhistory li.even {
   font-variant: normal;
 }
 .forum .threads td {
-  background-image: url("/img/design/table_cell_even.gif");
+  background-image: url("../img/design/table_cell_even.gif");
 }
 .forum .threads td a.admin {
   display: block;
@@ -5710,7 +5710,7 @@ ul.fhistory li.even {
 .forum tr.treaded_false td {
   color: black;
   font-weight: bold;
-  background-image: url("/img/design/table_cell.gif");
+  background-image: url("../img/design/table_cell.gif");
 }
 .forum tr.treaded_false td a {
   color: black;
@@ -6072,13 +6072,13 @@ ul.fhistory li.even {
   -webkit-border-radius: 0px;
 }
 .news2 .header {
-  background-image: url("/img/design/bloc_news_header.jpg");
+  background-image: url("../img/design/bloc_news_header.jpg");
   background-repeat: no-repeat;
   width: 519px;
   height: 16px;
 }
 .news2 .footer {
-  background-image: url("/img/design/bloc_news_footer.gif");
+  background-image: url("../img/design/bloc_news_footer.gif");
   margin-top: -20px;
   background-repeat: no-repeat;
   width: 519px;
@@ -6089,7 +6089,7 @@ ul.fhistory li.even {
   background-image: none;
 }
 .news2 .fond {
-  background-image: url("/img/design/bloc_news.jpg");
+  background-image: url("../img/design/bloc_news.jpg");
   background-repeat: repeat-y;
   padding-left: 8px;
   padding-right: 8px;
@@ -6166,7 +6166,7 @@ ul.fhistory li.even {
   float: left;
 }
 .condense {
-  background-image: url("/img/design/degrade_news2.jpg");
+  background-image: url("../img/design/degrade_news2.jpg");
   background-repeat: repeat-y;
   width: 254px;
   height: 58px;
@@ -6204,7 +6204,7 @@ ul.fhistory li.even {
   font-size: 9pt;
 }
 .condense:hover {
-  background-image: url("/img/design/degrade_news3.jpg");
+  background-image: url("../img/design/degrade_news3.jpg");
 }
 .condense:hover .title2 {
   color: white;
@@ -6216,7 +6216,7 @@ ul.fhistory li.even {
   margin-left: 273px;
 }
 .maj .titremaj {
-  background-image: url("/img/design/degrade_news.jpg");
+  background-image: url("../img/design/degrade_news.jpg");
   width: 247px;
   height: 20px;
 }
@@ -6298,7 +6298,7 @@ ul.fhistory li.even {
   margin-top: 5px;
   height: 74px;
   width: 520px;
-  background-image: url("/img/design/underDevTimeline.gif");
+  background-image: url("../img/design/underDevTimeline.gif");
   background-repeat: no-repeat;
   padding-left: 108px;
 }
@@ -6318,7 +6318,7 @@ ul.fhistory li.even {
   text-decoration: none;
 }
 .underdev .timeline .activated {
-  background-image: url("/img/design/underDevTimeline_hover.gif");
+  background-image: url("../img/design/underDevTimeline_hover.gif");
   background-repeat: no-repeat;
   height: 74px;
   width: 103px;
@@ -6353,7 +6353,7 @@ table.futur {
   display: none;
 }
 table.futur td.futurheader {
-  background-image: url("/img/design/maj_bg_header.gif");
+  background-image: url("../img/design/maj_bg_header.gif");
   background-repeat: no-repeat;
   background-position: top center;
   height: 29px;
@@ -6366,7 +6366,7 @@ table.futur td.futurheader .futurtitle {
   margin-top: -4px;
 }
 table.futur td.futurbg {
-  background-image: url("/img/design/maj_bg.gif");
+  background-image: url("../img/design/maj_bg.gif");
   background-repeat: repeat-y;
   background-position: top center;
 }
@@ -6385,7 +6385,7 @@ table.futur td.futurbg ul li {
   margin-left: 10px;
 }
 table.futur td.futurfooter {
-  background-image: url("/img/design/maj_bg_footer.gif");
+  background-image: url("../img/design/maj_bg_footer.gif");
   background-repeat: no-repeat;
   height: 17px;
   background-position: top center;
@@ -6407,7 +6407,7 @@ table.futur .faraway {
   margin-bottom: 10px;
   background-repeat: no-repeat;
   cursor: pointer;
-  background-image: url("/img/loc/fr/intro.gif");
+  background-image: url("../img/loc/fr/intro.gif");
 }
 .intro .specs {
   position: absolute;
@@ -6552,7 +6552,7 @@ table.futur .faraway {
   color: #bc683c;
   font-size: 16pt;
   line-height: 15pt;
-  background-image: url("/img/design/vs.gif");
+  background-image: url("../img/design/vs.gif");
   background-repeat: no-repeat;
 }
 .versus .status a {
@@ -6644,7 +6644,7 @@ table.futur .faraway {
   width: 660px;
 }
 .clan .center {
-  background-image: url("/img/design/clan_info_center.gif");
+  background-image: url("../img/design/clan_info_center.gif");
   height: 125px;
   font-size: 8.5pt;
   letter-spacing: 0pt;
@@ -6681,7 +6681,7 @@ table.futur .faraway {
   width: 300px;
 }
 .clan .header {
-  background-image: url("/img/loc/fr/clan_info_header.gif");
+  background-image: url("../img/loc/fr/clan_info_header.gif");
   height: 30px;
   background-repeat: no-repeat;
 }
@@ -6692,7 +6692,7 @@ table.futur .faraway {
   background-color: #bc683c;
 }
 .clan .footer {
-  background-image: url("/img/design/clan_info_footer.gif");
+  background-image: url("../img/design/clan_info_footer.gif");
   height: 19px;
   margin-bottom: 10px;
   background-repeat: no-repeat;
@@ -6727,7 +6727,7 @@ table.futur .faraway {
   vertical-align: -15%;
 }
 .page .headerpage {
-  background-image: url("/img/loc/fr/clan_pages_header.gif");
+  background-image: url("../img/loc/fr/clan_pages_header.gif");
   height: 61px;
 }
 .page .headerpage ul.onglet {
@@ -6739,7 +6739,7 @@ table.futur .faraway {
   float: left;
   margin-right: 5px;
   background-repeat: no-repeat;
-  background-image: url("/img/design/icon_fond2.gif");
+  background-image: url("../img/design/icon_fond2.gif");
   width: 38px;
   height: 38px;
 }
@@ -6755,19 +6755,19 @@ table.futur .faraway {
   background-color: transparent;
 }
 .page .headerpage ul.onglet li.active {
-  background-image: url("/img/design/icon_fond.gif");
+  background-image: url("../img/design/icon_fond.gif");
 }
 .page .headerpage ul.onglet li:hover {
   background-color: transparent;
-  background-image: url("/img/design/icon_fond.gif");
+  background-image: url("../img/design/icon_fond.gif");
   height: 38px;
   width: 38px;
 }
 .page .centre {
-  background-image: url("/img/design/clan_pages_center.gif");
+  background-image: url("../img/design/clan_pages_center.gif");
 }
 .page .footerpage {
-  background-image: url("/img/design/clan_pages_footer.gif");
+  background-image: url("../img/design/clan_pages_footer.gif");
   height: 17px;
 }
 .clan .centre {
@@ -6925,7 +6925,7 @@ table.futur .faraway {
   height: 400px;
 }
 .clan .history ul {
-  list-style-image: url("/img/icons/small_edit.gif");
+  list-style-image: url("../img/icons/small_edit.gif");
 }
 .clan .history .toggle {
   height: 30px;
@@ -7001,7 +7001,7 @@ table.futur .faraway {
   color: #ffee92;
   font-size: 9pt;
   line-height: 11pt;
-  background-image: url("/img/design/upgrades_bg.gif");
+  background-image: url("../img/design/upgrades_bg.gif");
 }
 .clan .upgrades2 {
   width: 398px;
@@ -7082,7 +7082,7 @@ table.futur .faraway {
   background-color: #cc85eb;
 }
 .overview span.warning {
-  background-image: url("/img/design/anim_bar_warning.gif");
+  background-image: url("../img/design/anim_bar_warning.gif");
 }
 .overview table td {
   font-size: 9pt;
@@ -7222,7 +7222,7 @@ ul.ingr li .tinyBar {
   font-size: 9pt;
   line-height: 12pt;
   padding-left: 22px;
-  background-image: url("/img/icons/small_dot.gif");
+  background-image: url("../img/icons/small_dot.gif");
   background-repeat: no-repeat;
   background-position: 1px center;
 }
@@ -7243,7 +7243,7 @@ ul.ingr li .tinyBar {
   margin-bottom: 5px;
 }
 .guide .content ul {
-  list-style: url("/img/icons/small_dot.gif");
+  list-style: url("../img/icons/small_dot.gif");
   padding-left: 35px;
   margin-bottom: 20px;
 }
@@ -7271,12 +7271,12 @@ ul.ingr li .tinyBar {
   color: white;
 }
 .bank .goldHeader {
-  background-image: url("/img/loc/fr/bank_or_header.gif");
+  background-image: url("../img/loc/fr/bank_or_header.gif");
   height: 29px;
   width: 539px;
 }
 .bank .goldCore {
-  background-image: url("/img/design/clan_info_center.gif");
+  background-image: url("../img/design/clan_info_center.gif");
   width: 526px;
   padding-left: 13px;
   padding-bottom: 5px;
@@ -7287,18 +7287,18 @@ ul.ingr li .tinyBar {
   padding-bottom: 5px;
 }
 .bank .goldFooter {
-  background-image: url("/img/design/clan_info_footer.gif");
+  background-image: url("../img/design/clan_info_footer.gif");
   height: 19px;
   width: 539px;
   margin-bottom: 10px;
 }
 .bank .aboHeader {
-  background-image: url("/img/loc/fr/bank_abo_header.gif");
+  background-image: url("../img/loc/fr/bank_abo_header.gif");
   height: 29px;
   width: 539px;
 }
 .bank .aboCore {
-  background-image: url("/img/design/bank_abo_core.gif");
+  background-image: url("../img/design/bank_abo_core.gif");
   background-repeat: repeat-y;
   width: 539px;
   padding-left: 10px;
@@ -7314,7 +7314,7 @@ ul.ingr li .tinyBar {
   padding-top: 10px;
 }
 .bank .aboCore .arrow {
-  background-image: url("/img/design/abo_info_fleche.gif");
+  background-image: url("../img/design/abo_info_fleche.gif");
   background-repeat: no-repeat;
   height: 86px;
   width: 16px;
@@ -7322,7 +7322,7 @@ ul.ingr li .tinyBar {
   margin-right: 3px;
 }
 .bank .aboCore .arrow2 {
-  background-image: url("/img/design/abo_info_fleche_top.gif");
+  background-image: url("../img/design/abo_info_fleche_top.gif");
   background-repeat: no-repeat;
   height: 16px;
   width: 86px;
@@ -7330,7 +7330,7 @@ ul.ingr li .tinyBar {
   position: absolute;
 }
 .bank .aboCore .arrow3 {
-  background-image: url("/img/design/abo_info_fleche_down.gif");
+  background-image: url("../img/design/abo_info_fleche_down.gif");
   background-repeat: no-repeat;
   height: 16px;
   width: 86px;
@@ -7343,7 +7343,7 @@ ul.ingr li .tinyBar {
 .bank .aboCore .infoHeader {
   padding-top: 13px;
   background-position: bottom left;
-  background-image: url("/img/design/abo_info_header.gif");
+  background-image: url("../img/design/abo_info_header.gif");
   background-repeat: no-repeat;
   height: 7px;
   width: 371px;
@@ -7351,7 +7351,7 @@ ul.ingr li .tinyBar {
 }
 .bank .aboCore .infoCore {
   background-repeat: repeat-y;
-  background-image: url("/img/design/abo_info_core.gif");
+  background-image: url("../img/design/abo_info_core.gif");
   width: 371px;
   margin-left: 8px;
 }
@@ -7360,17 +7360,17 @@ ul.ingr li .tinyBar {
   font-size: 10pt;
   color: #ffee92;
   line-height: 26px;
-  list-style: url("/img/icons/small_dot.gif");
+  list-style: url("../img/icons/small_dot.gif");
 }
 .bank .aboCore .infoFooter {
-  background-image: url("/img/design/abo_info_footer.gif");
+  background-image: url("../img/design/abo_info_footer.gif");
   background-repeat: no-repeat;
   height: 7px;
   width: 371px;
   margin-left: 8px;
 }
 .bank .aboCore .abo {
-  background-image: url("/img/design/abo_bouton1.gif");
+  background-image: url("../img/design/abo_bouton1.gif");
   background-repeat: no-repeat;
   height: 110px;
   width: 128px;
@@ -7396,24 +7396,24 @@ ul.ingr li .tinyBar {
   color: #fded84;
 }
 .bank .aboCore .abo2 {
-  background-image: url("/img/design/abo_bouton2.gif");
+  background-image: url("../img/design/abo_bouton2.gif");
 }
 .bank .aboCore .abo3 {
-  background-image: url("/img/design/abo_bouton3.gif");
+  background-image: url("../img/design/abo_bouton3.gif");
 }
 .bank .aboCore .abo:hover {
   height: 102px;
   padding-top: 34px;
-  background-image: url("/img/design/abo_bouton1bis.gif");
+  background-image: url("../img/design/abo_bouton1bis.gif");
 }
 .bank .aboCore .abo2:hover {
-  background-image: url("/img/design/abo_bouton2bis.gif");
+  background-image: url("../img/design/abo_bouton2bis.gif");
 }
 .bank .aboCore .abo3:hover {
-  background-image: url("/img/design/abo_bouton3bis.gif");
+  background-image: url("../img/design/abo_bouton3bis.gif");
 }
 .bank .aboFooter {
-  background-image: url("/img/design/bank_abo_footer.gif");
+  background-image: url("../img/design/bank_abo_footer.gif");
   height: 16px;
   width: 539px;
 }
@@ -7619,28 +7619,28 @@ ul.ingr li .tinyBar {
   position: relative;
 }
 .bank .details ul.tutorial li.sms {
-  background-image: url("/img/bank/tuto_sms.gif");
+  background-image: url("../img/bank/tuto_sms.gif");
 }
 .bank .details ul.tutorial li.wait {
-  background-image: url("/img/bank/tuto_wait.gif");
+  background-image: url("../img/bank/tuto_wait.gif");
 }
 .bank .details ul.tutorial li.done {
-  background-image: url("/img/bank/tuto_done.gif");
+  background-image: url("../img/bank/tuto_done.gif");
 }
 .bank .details ul.tutorial li.mouse {
-  background-image: url("/img/bank/tuto_mouse.gif");
+  background-image: url("../img/bank/tuto_mouse.gif");
 }
 .bank .details ul.tutorial li.call {
-  background-image: url("/img/bank/tuto_call.gif");
+  background-image: url("../img/bank/tuto_call.gif");
 }
 .bank .details ul.tutorial li.listen {
-  background-image: url("/img/bank/tuto_listen.gif");
+  background-image: url("../img/bank/tuto_listen.gif");
 }
 .bank .details ul.tutorial li.hangup {
-  background-image: url("/img/bank/tuto_hangup.gif");
+  background-image: url("../img/bank/tuto_hangup.gif");
 }
 .bank .details ul.tutorial li.trouble {
-  background-image: url("/img/bank/tuto_trouble.gif");
+  background-image: url("../img/bank/tuto_trouble.gif");
 }
 .bank .details form {
   padding: 5px;
@@ -7752,13 +7752,13 @@ ul.ingr li .tinyBar {
 }
 .mailer .box table tr.unread td.subject {
   padding-left: 20px;
-  background-image: url("/img/icons/small_browse_next.gif");
+  background-image: url("../img/icons/small_browse_next.gif");
   background-position: 2px center;
   background-repeat: no-repeat;
 }
 .mailer .box table.archives tr td.subject {
   padding-left: 20px;
-  background-image: url("/img/icons/small_lock.gif");
+  background-image: url("../img/icons/small_lock.gif");
   background-position: 2px center;
   background-repeat: no-repeat;
 }
@@ -7911,7 +7911,7 @@ div.artwork {
   line-height: 18px;
   font-size: 10pt;
   color: white;
-  background-image: url("/img/icons/anim_small_chrono.gif");
+  background-image: url("../img/icons/anim_small_chrono.gif");
   background-repeat: no-repeat;
   background-position: 1px 1px;
   background-color: #bc683c;
@@ -8047,7 +8047,7 @@ ul li.dead {
   margin-left: 1px;
   padding-top: 2px;
   padding-left: 8px;
-  background-image: url("/img/design/forum_bar.gif");
+  background-image: url("../img/design/forum_bar.gif");
   background-repeat: no-repeat;
 }
 .ranks ul.bar li {
@@ -8158,7 +8158,7 @@ ul li.dead {
   height: auto;
   font-size: 8pt;
   padding-right: 5px;
-  background-image: url("/img/icons/small_chrono.gif");
+  background-image: url("../img/icons/small_chrono.gif");
   background-position: 0px 0px;
 }
 .offer .details {
@@ -8318,7 +8318,7 @@ ul li.dead {
 .faq dt {
   margin-top: 10px;
   padding-left: 20px;
-  background: url("/img/icons/small_follow.gif") no-repeat;
+  background: url("../img/icons/small_follow.gif") no-repeat;
 }
 .faq dd {
   width: 100%;
@@ -8419,7 +8419,7 @@ ul li.dead {
   padding-left: 10px;
   padding-right: 10px;
   color: #ffee92;
-  background-image: url("/img/design/cinema_bg.gif");
+  background-image: url("../img/design/cinema_bg.gif");
 }
 .cinema .debrief .end {
   position: absolute;
@@ -8433,7 +8433,7 @@ ul li.dead {
   margin-left: 140px;
   margin-top: 12px;
   width: 135px;
-  background-image: url("/img/icons/cinema_rate_empty.gif");
+  background-image: url("../img/icons/cinema_rate_empty.gif");
 }
 .cinema .debrief .vote .v {
   float: left;
@@ -8446,12 +8446,12 @@ ul li.dead {
 .cinemaBar {
   width: 60px;
   height: 12px;
-  background-image: url("/img/icons/small_star_empty.gif");
+  background-image: url("../img/icons/small_star_empty.gif");
   background-repeat: repeat-x;
 }
 .cinemaBar .fill {
   height: 12px;
-  background-image: url("/img/icons/small_star.gif");
+  background-image: url("../img/icons/small_star.gif");
 }
 .battle .dino {
   margin-bottom: 10px;
@@ -8516,7 +8516,7 @@ ul li.dead {
   color: white;
 }
 .mascotte {
-  background-image: url("/img/design/cdc_art.jpg");
+  background-image: url("../img/design/cdc_art.jpg");
   height: 132px;
   width: 155px;
   background-repeat: no-repeat;
@@ -8557,7 +8557,7 @@ table.battle {
   margin: auto;
 }
 table.battle .border {
-  background-image: url("/img/design/cdc_border.jpg");
+  background-image: url("../img/design/cdc_border.jpg");
   height: 540px;
   width: 44px;
   background-repeat: no-repeat;
@@ -8570,7 +8570,7 @@ table.battle .border {
   font-size: 110%;
 }
 .league .banner {
-  background-image: url("/img/design/cdc_banner.jpg");
+  background-image: url("../img/design/cdc_banner.jpg");
   height: 90px;
   width: 641px;
   background-repeat: no-repeat;
@@ -8601,7 +8601,7 @@ table.battle .border {
   height: 60px;
 }
 .league .valid {
-  background-image: url("/img/design/etape_done.gif");
+  background-image: url("../img/design/etape_done.gif");
   position: absolute;
   height: 27px;
   width: 32px;
@@ -8708,7 +8708,7 @@ table.battle .border {
   margin: auto;
 }
 .dojo .tournoi {
-  background-image: url("/img/design/fond_tournoi.jpg");
+  background-image: url("../img/design/fond_tournoi.jpg");
   background-repeat: no-repeat;
   height: 530px;
   width: 495px;
@@ -8727,7 +8727,7 @@ table.battle .border {
 }
 .dojo .tournoi .vsdino {
   position: absolute;
-  background-image: url("/img/design/tournoi_dino.gif");
+  background-image: url("../img/design/tournoi_dino.gif");
   background-repeat: no-repeat;
   height: 50px;
   width: 50px;
@@ -8739,10 +8739,10 @@ table.battle .border {
   margin-top: -5px;
 }
 .dojo .tournoi .vsdinoLost {
-  background-image: url("/img/design/tournoi_dino2.gif");
+  background-image: url("../img/design/tournoi_dino2.gif");
 }
 .dojo .tournoi .vsdinoUser {
-  background-image: url("/img/design/tournoi_dino3.gif");
+  background-image: url("../img/design/tournoi_dino3.gif");
 }
 .dojo .tournoi .surprise {
   position: absolute;
@@ -8756,7 +8756,7 @@ table.battle .border {
   text-decoration: none;
 }
 .dojo .champion {
-  background-image: url("/img/design/fond_champion.jpg");
+  background-image: url("../img/design/fond_champion.jpg");
   height: 247px;
   width: 428px;
   margin: auto;
@@ -8811,7 +8811,7 @@ table.battle .border {
 }
 .dojo .objectif {
   cursor: default;
-  background-image: url("/img/design/fond_obj.jpg");
+  background-image: url("../img/design/fond_obj.jpg");
   background-repeat: no-repeat;
   height: 46px;
   width: 527px;
@@ -8827,7 +8827,7 @@ table.battle .border {
   margin: auto;
 }
 .dojo .dojoBg {
-  background-image: url("/img/design/home_dojo.jpg");
+  background-image: url("../img/design/home_dojo.jpg");
   height: 288px;
   width: 530px;
   background-repeat: no-repeat;
@@ -8890,7 +8890,7 @@ table.battle .border {
   float: left;
   margin-top: 12px;
   margin-left: 12px;
-  background-image: url("/img/design/menu_dojo_bt.gif");
+  background-image: url("../img/design/menu_dojo_bt.gif");
   background-repeat: no-repeat;
   border: 0px;
   height: 46px;
@@ -8917,7 +8917,7 @@ table.battle .border {
 }
 .dojo .dojoBg .menuBt .iconDefi {
   float: left;
-  background-image: url("/img/design/icon_defi.gif");
+  background-image: url("../img/design/icon_defi.gif");
   height: 32px;
   width: 32px;
   background-repeat: no-repeat;
@@ -8925,7 +8925,7 @@ table.battle .border {
   margin-top: 7px;
 }
 .dojo .dojoBg .menuBt .iconClass {
-  background-image: url("/img/design/icon_classement.gif");
+  background-image: url("../img/design/icon_classement.gif");
   height: 32px;
   width: 32px;
   background-repeat: no-repeat;
@@ -8934,7 +8934,7 @@ table.battle .border {
   float: left;
 }
 .dojo .dojoBg .menuBt .iconTrain {
-  background-image: url("/img/design/icon_train.gif");
+  background-image: url("../img/design/icon_train.gif");
   height: 32px;
   width: 32px;
   background-repeat: no-repeat;
@@ -8943,7 +8943,7 @@ table.battle .border {
   float: left;
 }
 .dojo .dojoBg .menuBt .iconHisto {
-  background-image: url("/img/design/icon_historique.gif");
+  background-image: url("../img/design/icon_historique.gif");
   height: 32px;
   width: 32px;
   background-repeat: no-repeat;
@@ -8952,7 +8952,7 @@ table.battle .border {
   float: left;
 }
 .dojo .dojoBg .menuBt .iconTournoi {
-  background-image: url("/img/design/icon_tournoi.gif");
+  background-image: url("../img/design/icon_tournoi.gif");
   height: 32px;
   width: 32px;
   background-repeat: no-repeat;
@@ -8962,7 +8962,7 @@ table.battle .border {
 }
 .dojo .dojoBg .menuBt:hover,
 .dojo .dojoBg .menuBt:focus {
-  background-image: url("/img/design/menu_dojo_bt2.gif");
+  background-image: url("../img/design/menu_dojo_bt2.gif");
   width: 48px;
 }
 .dojo .dojoBg .menuBt:hover .textBt,
@@ -8971,12 +8971,12 @@ table.battle .border {
   color: #672a07;
 }
 .dojo .dojoBg .temp1Bt {
-  background-image: url("/img/design/temp_custom.gif");
+  background-image: url("../img/design/temp_custom.gif");
   height: 46px;
   width: 48px;
 }
 .dojo .dojoBg .temp2Bt {
-  background-image: url("/img/design/temp_tournoi.gif");
+  background-image: url("../img/design/temp_tournoi.gif");
   height: 46px;
   width: 48px;
 }
@@ -8997,7 +8997,7 @@ table.battle .border {
   font-size: 11px;
 }
 .dojo .defi .defiFond {
-  background-image: url("/img/design/fond_defi.jpg");
+  background-image: url("../img/design/fond_defi.jpg");
   height: 114px;
   width: 100px;
   float: left;
@@ -9006,15 +9006,15 @@ table.battle .border {
 }
 .dojo .defi .defiFond:hover,
 .dojo .defi .defiFond:focus {
-  background-image: url("/img/design/fond_defi2.jpg");
+  background-image: url("../img/design/fond_defi2.jpg");
 }
 .dojo .defi .defiDone,
 .dojo .defi .defiDone:hover,
 .dojo .defi .defiDone:focus {
-  background-image: url("/img/design/fond_defi3.jpg");
+  background-image: url("../img/design/fond_defi3.jpg");
 }
 .dojo .defi .defiCancel {
-  background-image: url("/img/icons/large_error.gif");
+  background-image: url("../img/icons/large_error.gif");
   width: 32px;
   height: 32px;
   left: 65px;
@@ -9049,14 +9049,14 @@ table.battle .border {
   height: 30px;
 }
 .dojo .search .test {
-  background-image: url("/img/design/fond_search.gif");
+  background-image: url("../img/design/fond_search.gif");
   width: 154px;
   height: 91px;
   border: 1px solid #c17145;
   float: left;
 }
 .dojo .search .clan {
-  background-image: url("/img/design/fond_search.gif");
+  background-image: url("../img/design/fond_search.gif");
   width: 361px;
   height: 91px;
   border: 1px solid #c17145;
@@ -9079,7 +9079,7 @@ table.battle .border {
 .dojo .versus {
   width: 527px;
   height: 247px;
-  background-image: url("/img/design/vs.jpg");
+  background-image: url("../img/design/vs.jpg");
   background-repeat: no-repeat;
 }
 .dojo .versus ul {
@@ -9108,7 +9108,7 @@ table.battle .border {
 .dojo .versus .left .nodino .fleche,
 .dojo .versus .right .nodino .fleche {
   margin-left: 80px;
-  background-image: url("/img/design/drag.gif");
+  background-image: url("../img/design/drag.gif");
   background-repeat: no-repeat;
   height: 74px;
   width: 50px;
@@ -9141,7 +9141,7 @@ table.battle .border {
   position: absolute;
   top: 250px;
   left: 215px;
-  background-image: url("/img/design/combat.gif");
+  background-image: url("../img/design/combat.gif");
   background-repeat: no-repeat;
   height: 59px;
   width: 112px;
@@ -9165,7 +9165,7 @@ table.battle .border {
   background-color: transparent;
 }
 .dojo .versus .combat:hover {
-  background-image: url("/img/design/combat2.gif");
+  background-image: url("../img/design/combat2.gif");
 }
 .dojo .dinoMenu {
   list-style-type: none;
@@ -9202,12 +9202,12 @@ table.battle .border {
   margin-top: 7px;
 }
 .dojo .dinoChoice .dinoFond {
-  background-image: url("/img/design/fond_dino3.jpg");
+  background-image: url("../img/design/fond_dino3.jpg");
   cursor: pointer;
   background-repeat: no-repeat;
 }
 .dojo .dinoChoice .dinoSelected {
-  background-image: url("/img/design/fond_dino.jpg");
+  background-image: url("../img/design/fond_dino.jpg");
 }
 .dojo dinoChoice {
   overflow: auto;
@@ -9224,12 +9224,12 @@ table.battle .border {
   margin-top: 7px;
 }
 .dojo dinoChoice .dinoFond {
-  background-image: url("/img/design/fond_dino3.jpg");
+  background-image: url("../img/design/fond_dino3.jpg");
   cursor: pointer;
   background-repeat: no-repeat;
 }
 .dojo dinoChoice .dinoSelected {
-  background-image: url("/img/design/fond_dino.jpg");
+  background-image: url("../img/design/fond_dino.jpg");
 }
 .dojo .nom {
   font-size: 12px;
@@ -9260,7 +9260,7 @@ table.battle .border {
 }
 .dojo .dinoList .dinoListContent .dinoFond {
   float: left;
-  background-image: url("/img/design/fond_dino.jpg");
+  background-image: url("../img/design/fond_dino.jpg");
   width: 97px;
   height: 84px;
   margin-left: 7px;
@@ -9269,12 +9269,12 @@ table.battle .border {
 }
 .dojo .dinoList .dinoListContent .dinoFond:hover,
 .dojo .dinoList .dinoListContent .dinoFond:focus {
-  background-image: url("/img/design/fond_dino2.jpg");
+  background-image: url("../img/design/fond_dino2.jpg");
 }
 .dojo .dinoList .dinoListContent .dinoDone,
 .dojo .dinoList .dinoListContent .dinoDone:hover,
 .dojo .dinoList .dinoListContent .dinoDone:focus {
-  background-image: url("/img/design/fond_dino3.jpg");
+  background-image: url("../img/design/fond_dino3.jpg");
 }
 .dojo .dinoVersus {
   position: relative;
@@ -9328,7 +9328,7 @@ table.stats {
   margin-bottom: 5px;
 }
 table.stats tr th {
-  background-image: url("/img/design/table_header2.gif");
+  background-image: url("../img/design/table_header2.gif");
   height: 10px;
   border: 1px solid #7a1919;
 }
@@ -9412,7 +9412,7 @@ a {
   color: #ffee92;
 }
 .newsSection .tid_module .tid_safe_story {
-  background-image: url("/img/design/bloc_news_twinoid.jpg");
+  background-image: url("../img/design/bloc_news_twinoid.jpg");
   background-repeat: repeat-y;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -9449,7 +9449,7 @@ a {
   height: 16px;
   padding-left: 20px;
   font-size: 10pt;
-  background-image: url("/img/icons/small_chrono.gif");
+  background-image: url("../img/icons/small_chrono.gif");
   background-repeat: no-repeat;
   background-position: 1px 1px;
   margin-left: 3px;
@@ -9459,7 +9459,7 @@ a {
   position: absolute;
   height: 10px;
   font-size: 10pt;
-  background-image: url("/img/icons/small_chrono.gif");
+  background-image: url("../img/icons/small_chrono.gif");
   background-repeat: no-repeat;
   background-position: 80px 1px;
   padding-left: 100px;
@@ -9478,7 +9478,7 @@ a {
   position: absolute;
   margin-top: 125px;
   margin-left: 231px;
-  background-image: url("/img/design/menuHorizBg.gif");
+  background-image: url("../img/design/menuHorizBg.gif");
   background-repeat: no-repeat;
   width: 530px;
   padding-top: 8px;
