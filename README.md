@@ -3,7 +3,7 @@
 This project is a small website archiving all the movies from the now taken down Dino-RPG website by Motion-Twin. This project is not linked with Motion-Twin in any way.
 --> [You can access the website here](https://gerardufoin.github.io/DinoRPG-Legacy-Paradino/) <--
 
-[Website Preview](readme/preview.png)
+![Screenshot of the website's preview](readme/preview.png)
 
 ## DinoRPG: Animations
 
