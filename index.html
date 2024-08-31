@@ -606,7 +606,7 @@
         }
         abortRequest = new AbortController();
         await fetch(
-          `/data/movies/${parameters.lang}/${parameters.movie_id}.json`,
+          `data/movies/${parameters.lang}/${parameters.movie_id}.json`,
           {
             headers: {
               "Content-Type": "application/json",
@@ -746,7 +746,7 @@
         }
         abortRequest = new AbortController();
         await fetch(
-          `/data/users/${parameters.lang}/${parameters.user_id}.json`,
+          `data/users/${parameters.lang}/${parameters.user_id}.json`,
           {
             headers: {
               "Content-Type": "application/json",
