@@ -203,6 +203,8 @@
       let parameters = {};
       let filterSearch = "";
       let filterFlags = ["fr", "en", "es"];
+      // Used for github pages
+      const defaultPathname = window.location.pathname;
       // List of the page containers
       const pages = [
         document.getElementById("page-loading"),
@@ -299,6 +301,10 @@
           displayPage("page-loading");
         }
         if (url) {
+          if (url[0] === "/") {
+            url = url.substring(1);
+          }
+          url = defaultPathname + url;
           window.history.pushState("", "", url);
         }
         getPageLocation();
